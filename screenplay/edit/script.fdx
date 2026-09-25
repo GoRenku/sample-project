@@ -1,0 +1,630 @@
+<?xml version='1.0' encoding='utf-8'?>
+<FinalDraft DocumentType="Script" Template="No" Version="1">
+  <Content>
+    <Paragraph Type="Scene Heading" Number="01">
+      <Text>EXT. Theodosian Walls - DAWN</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>A gray April dawn. Theodosian Walls rise from smoke like a cliff at the edge of the world.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Narrator (V.O.)</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>For a thousand years, these walls had taught armies to turn back.</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>In the spring of 1453, a new lesson arrived on wheels.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>In the Ottoman lines, a bronze mouth big enough for a man to crawl inside points at the city.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>Urban stands beside it, face blackened, one hand on the warm metal as if taking a pulse.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Mara</Text>
+    </Paragraph>
+    <Paragraph Type="Parenthetical">
+      <Text>(low)</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>The barrel is still angry.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Urban</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Bronze has no temper. Men give it one.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>Crews wedge the great stone ball into place. Men cover their ears before the order is even given.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Mehmed II (O.S.)</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Fire.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>The cannon erupts. The world becomes flame, thunder, and flying dust.</Text>
+    </Paragraph>
+    <Paragraph Type="Shot">
+      <Text>ON Theodosian Walls: stone cracks. Defenders vanish inside a white cloud.
+</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Narrator (V.O.)</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>The maker of this thunder was not Ottoman. He had come first to the men inside the city.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>Urban watches the smoke strike the city before the ball does.</Text>
+    </Paragraph>
+    <Paragraph Type="Transition">
+      <Text>CUT TO BLACK.</Text>
+    </Paragraph>
+    <Paragraph Type="Title">
+      <Text>FOUR MONTHS EARLIER</Text>
+    </Paragraph>
+    <Paragraph Type="Scene Heading" Number="02">
+      <Text>INT. Imperial Council Chamber - DAY</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>Urban unrolls a charcoal drawing across a table scarred by generations of decisions.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>Constantine XI Palaiologos studies the design. Loukas Notaras studies the numbers beside it.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Narrator (V.O.)</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>By then, Byzantium was less an empire than a magnificent city with debts, memories, and enemies.</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Constantine could recognize genius. Recognition was cheaper than bronze.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Urban</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>A gun this size does not defend a wall. It changes the mind of the man approaching it.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Loukas Notaras</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>It changes the mind of the treasurer first.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Constantine XI Palaiologos</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>What would you require?</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Urban</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Bronze. Powder. Charcoal. Masons. Carpenters. Oxen. A foundry that can breathe without collapsing.</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>And pay enough that my men do not sell the design before the mold dries.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>Loukas Notaras slides a small tray of coins into view. It is almost embarrassing.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Loukas Notaras</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>This is what the empire can breathe.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Urban</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Then the empire is suffocating.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>The insult lands. Constantine XI Palaiologos absorbs it without flinching.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Constantine XI Palaiologos</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Yes.</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>But it is still my city.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Urban</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Then buy what may keep it yours.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Constantine XI Palaiologos</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Master Urban, I cannot buy bread with prophecy, nor bronze with courage.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>Urban looks from emperor to minister. He understands too well. That makes it worse.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Narrator (V.O.)</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>The refusal was not blindness. It was poverty.</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>And poverty, in war, can look very much like fate.</Text>
+    </Paragraph>
+    <Paragraph Type="Scene Heading" Number="03">
+      <Text>EXT. Harbor Quarter - EVENING</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>Urban and Mara pass refugees mending nets, soldiers mending shields, monks mending hope.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Mara</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>They are afraid of your gun.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Urban</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>They are afraid of the man who can afford it.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Mara</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Then do not go to him.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Urban</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>A design unfired is a corpse with clean hands.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>Across the water, Ottoman watchfires mark the dark like a second coastline.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Mara</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>And a design fired?</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>Urban folds the drawing and tucks it under his coat.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Urban</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Work.</Text>
+    </Paragraph>
+    <Paragraph Type="Scene Heading" Number="04">
+      <Text>INT. Edirne Palace Workroom - NIGHT</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>The same drawing lies under better lamps. Mehmed II circles it like a hunter circling tracks.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Mehmed II</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Can it break the walls of Constantinople?</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Urban</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>No cannon breaks a wall by itself.</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>It breaks one stone. Then another. Then the sleep of the men repairing them.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Mehmed II</Text>
+    </Paragraph>
+    <Paragraph Type="Parenthetical">
+      <Text>(pleased)</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>So it is a weapon against time.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Urban</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Against time, pride, and mortar.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>Mehmed II gestures. A scribe opens a chest. Coinlight spills across Urban's design.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Mehmed II</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>You asked the Romans for a price.</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>I will pay four.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Urban</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>And the bronze?</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Mehmed II</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>My empire has bells enough to become thunder.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>Mara watches Urban's face. The answer is visible before he speaks.</Text>
+    </Paragraph>
+    <Paragraph Type="Scene Heading" Number="05">
+      <Text>INT. Edirne Foundry - NIGHT</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>Bellows roar. Men feed charcoal until the air itself seems flammable.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Narrator (V.O.)</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>A cannon of this scale was not simply built. It was persuaded into being.</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Metal, timber, powder, animals, wages, weather, and fear all had to obey at once.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>Saruca taps the clay mold, listening. Urban waits beside him, sleepless and radiant.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Saruca</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Too much pride in one barrel.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Urban</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>It is measured.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Saruca</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>So is a grave.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>The pour begins. Molten bronze runs through channels like a controlled catastrophe.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>A worker slips. Mara catches his belt before he pitches forward into the glow.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Mara</Text>
+    </Paragraph>
+    <Paragraph Type="Parenthetical">
+      <Text>(to Urban)</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Look at him.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>Urban does. The worker's face is young, terrified, alive by inches.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Urban</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Back to the bellows.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>Mara's disappointment hurts more because she expected it.</Text>
+    </Paragraph>
+    <Paragraph Type="Scene Heading" Number="06">
+      <Text>EXT. Edirne Test Field - DAY</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>A stone ball sits inside the cannon's mouth. Beyond it, a target wall waits in an empty field.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Saruca</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>If it bursts, no one will hear your apology.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Urban</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Then stand farther away.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>Mehmed II lifts one hand. Silence rolls outward through the field.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>Fire. The shot tears across the air and punches the target wall open.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>For a moment no one cheers. The sound has made celebration feel small.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Mehmed II</Text>
+    </Paragraph>
+    <Paragraph Type="Parenthetical">
+      <Text>(softly, to Urban)</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>The city will hear this before it sees me.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>Urban smiles, but it leaves him quickly.</Text>
+    </Paragraph>
+    <Paragraph Type="Scene Heading" Number="07">
+      <Text>EXT. Road to Constantinople - DAY</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>Dozens of oxen strain against ropes. Hundreds of men lever the huge bombard through mud.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Narrator (V.O.)</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>The great gun was cast far from the walls it was meant to break.</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Moving it became its own siege: road against weight, mud against ambition.
+</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>The gun moves less like a weapon than a captive tower.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Mara</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>It takes an army to move your idea.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Urban</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>That is why emperors ignored it.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>A rope snaps. Men scatter. One ox falls screaming beneath the carriage.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>The cannon does not care. It simply waits to be moved again.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Mara</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>How many dead before it fires?</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Urban</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Less than after.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>He regrets saying it. He does not take it back.</Text>
+    </Paragraph>
+    <Paragraph Type="Scene Heading" Number="08">
+      <Text>EXT. Theodosian Walls - NIGHT</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>On the Byzantine side, defenders drag barrels, stones, and beams into a breach still warm from impact.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>Giovanni Giustiniani Longo directs the work with a bloodied sleeve tied around his forearm. Constantine XI Palaiologos hauls a timber with ordinary men.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Giovanni Giustiniani Longo</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Again before dawn. They need hours to cool and load.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Constantine XI Palaiologos</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Then we will have hours.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>Loukas Notaras arrives with men from the sea walls. He sees the breach and all his ledgers fail him.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Loukas Notaras</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>We should have found the bronze.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Constantine XI Palaiologos</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>We should have found a century.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>Across the field, Ottoman torches gather around the sleeping cannon.</Text>
+    </Paragraph>
+    <Paragraph Type="Scene Heading" Number="09">
+      <Text>EXT. Ottoman Siege Camp - PRE-DAWN</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>The cannon steams in cold air. Urban presses wet cloth to the barrel and hears a faint complaint inside the metal.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Urban</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>It needs more time.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Mehmed II</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>The wall is open.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Saruca</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Open walls invite impatience. Impatience bursts guns.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>Mehmed II looks to Urban, not Saruca. The privilege feels like a sentence.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Mehmed II</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Will it fire?</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>Mara stares at Urban. Say no, her face says. Let one thing be stronger than pride.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Urban</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>It will fire.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>The crew loads. Urban stays close, checking wedges, powder, angle, touchhole.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Mara</Text>
+    </Paragraph>
+    <Paragraph Type="Parenthetical">
+      <Text>(urgent whisper)</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>You said bronze has no temper.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Urban</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>I lied.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>He pushes her back behind a powder cart.</Text>
+    </Paragraph>
+    <Paragraph Type="Scene Heading" Number="10">
+      <Text>EXT. Ottoman Siege Camp, Theodosian Walls - DAWN</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>The fuse takes. A thread of fire crawls toward the great bronze chamber.</Text>
+    </Paragraph>
+    <Paragraph Type="Shot">
+      <Text>ON Urban: no triumph now. Only attention.
+</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>The cannon fires and bursts in the same impossible breath.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Narrator (V.O.)</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Here the records become smoke.</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Some say Urban lived to hear the city fall. Others say his own invention took him first.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>Bronze fragments scythe through smoke. Men drop. The carriage splits. The roar turns inside out.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>Mara crawls through ash and shattered wood to Urban.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Mara</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Master.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>Urban lies against a wheel, blood dark beneath the soot. His eyes search past her.</Text>
+    </Paragraph>
+    <Paragraph Type="Shot">
+      <Text>HIS POV: through thinning smoke, Theodosian Walls still stand, but wounded.
+</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Urban</Text>
+    </Paragraph>
+    <Paragraph Type="Parenthetical">
+      <Text>(barely)</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Did it strike?</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Mara</Text>
+    </Paragraph>
+    <Paragraph Type="Parenthetical">
+      <Text>(after a beat)</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Yes.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>This is not comfort. It is mercy's nearest shape.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Urban</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Then remember the men who moved it.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>Urban's hand loosens around a charred measuring cord.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>Mehmed II stands beyond the smoke, alive, untouched, already looking toward the breach instead of the dead.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>On the walls, Constantine XI Palaiologos turns at the distant explosion. For one suspended moment, maker and emperor share the same silence across the battlefield.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>Then drums begin again.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>Narrator (V.O.)</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>The walls had not fallen yet.</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>But the future had found their weakness.</Text>
+    </Paragraph>
+    <Paragraph Type="Transition">
+      <Text>FADE OUT.</Text>
+    </Paragraph>
+    <Paragraph Type="Super">
+      <Text>Constantinople fell on May 29, 1453. Urban's exact end is uncertain; one tradition holds that he died when his own great gun burst.</Text>
+    </Paragraph>
+  </Content>
+</FinalDraft>

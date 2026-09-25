@@ -1,0 +1,132 @@
+{
+  "frameRate": {
+    "numerator": 24,
+    "denominator": 1
+  },
+  "frameCount": 408,
+  "segments": [
+    {
+      "id": "harbor-tracking",
+      "startFrame": 0,
+      "label": "Harbor tracking shot"
+    }
+  ],
+  "subjects": [
+    {
+      "key": "mara",
+      "label": "Mara",
+      "color": "#E86F62"
+    },
+    {
+      "key": "urban",
+      "label": "Urban",
+      "color": "#DCA637"
+    },
+    {
+      "key": "refugee_teal",
+      "label": "Net Mender",
+      "color": "#299F94"
+    },
+    {
+      "key": "refugee_green",
+      "label": "Refugee",
+      "color": "#73AF8B"
+    },
+    {
+      "key": "monk_violet",
+      "label": "Monk",
+      "color": "#8977B8"
+    },
+    {
+      "key": "civilian_lilac",
+      "label": "Civilian",
+      "color": "#BEA3CC"
+    },
+    {
+      "key": "soldier_blue",
+      "label": "Blue Soldier",
+      "color": "#397DE3"
+    },
+    {
+      "key": "soldier_slate",
+      "label": "Second Soldier",
+      "color": "#6D99B8"
+    }
+  ],
+  "cues": [
+    {
+      "id": "dialogue-1",
+      "kind": "dialogue",
+      "startFrame": 48,
+      "endFrame": 96,
+      "speaker": "mara",
+      "text": "They are afraid of your gun."
+    },
+    {
+      "id": "dialogue-2",
+      "kind": "dialogue",
+      "startFrame": 103,
+      "endFrame": 182,
+      "speaker": "urban",
+      "text": "They are afraid of the man who can afford it."
+    },
+    {
+      "id": "mara-approach",
+      "kind": "action",
+      "startFrame": 144,
+      "subject": "mara",
+      "text": "Mara approaches the blue soldier."
+    },
+    {
+      "id": "soldier-response",
+      "kind": "action",
+      "startFrame": 168,
+      "subject": "soldier_blue",
+      "text": "The blue soldier begins responding with gestures."
+    },
+    {
+      "id": "mara-gesture",
+      "kind": "action",
+      "startFrame": 192,
+      "subject": "mara",
+      "text": "Mara gestures to the blue soldier."
+    },
+    {
+      "id": "urban-stop",
+      "kind": "action",
+      "startFrame": 211,
+      "subject": "urban",
+      "text": "Urban settles farther along the quay."
+    },
+    {
+      "id": "urban-turn-mara",
+      "kind": "action",
+      "startFrame": 218,
+      "subject": "urban",
+      "text": "Urban begins turning back toward Mara."
+    },
+    {
+      "id": "mara-turn-urban",
+      "kind": "action",
+      "startFrame": 264,
+      "subject": "mara",
+      "text": "Mara begins a slow turn toward Urban."
+    },
+    {
+      "id": "dialogue-3",
+      "kind": "dialogue",
+      "startFrame": 268,
+      "endFrame": 316,
+      "speaker": "mara",
+      "text": "Then do not go to him."
+    },
+    {
+      "id": "dialogue-4",
+      "kind": "dialogue",
+      "startFrame": 319,
+      "endFrame": 403,
+      "speaker": "urban",
+      "text": "A design unfired is a corpse with clean hands."
+    }
+  ]
+}

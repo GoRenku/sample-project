@@ -1,0 +1,542 @@
+{
+  "version": 3,
+  "title": "The Harbor Argument | beats 1\u20134",
+  "duration": 17,
+  "fps": 24,
+  "resolution": [
+    960,
+    540
+  ],
+  "walk": {
+    "path": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        4.9,
+        0,
+        6.2
+      ],
+      [
+        5.5,
+        0,
+        6.9
+      ],
+      [
+        6,
+        0,
+        7.1
+      ],
+      [
+        17,
+        0,
+        7.1
+      ]
+    ],
+    "stride_metres": 1.3,
+    "leg_swing_degrees": 22
+  },
+  "characters": {
+    "mara": {
+      "label": "MARA",
+      "color": "E86F62",
+      "height": 1.72,
+      "lateral": [
+        [
+          0,
+          -0.64
+        ],
+        [
+          6,
+          -0.64
+        ],
+        [
+          8,
+          -1.5
+        ],
+        [
+          17,
+          -1.5
+        ]
+      ],
+      "ahead": [
+        [
+          0,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          8,
+          2.4
+        ],
+        [
+          17,
+          2.4
+        ]
+      ],
+      "phase": 0
+    },
+    "urban": {
+      "label": "URBAN",
+      "color": "DCA637",
+      "height": 1.88,
+      "lateral": 0.64,
+      "ahead": [
+        [
+          0,
+          0.45
+        ],
+        [
+          5,
+          0.45
+        ],
+        [
+          5.5,
+          0.55
+        ],
+        [
+          6,
+          0.85
+        ],
+        [
+          7.5,
+          2.75
+        ],
+        [
+          8.8,
+          3.7
+        ],
+        [
+          17,
+          3.7
+        ]
+      ],
+      "phase": 1.2
+    }
+  },
+  "supporting": {
+    "refugee_teal": {
+      "label": "NET MENDER",
+      "color": "299F94",
+      "height": 1.45,
+      "position": [
+        -2.25,
+        2.5,
+        0
+      ],
+      "yaw": 65,
+      "activity": "mend"
+    },
+    "refugee_green": {
+      "label": "REFUGEE",
+      "color": "73AF8B",
+      "height": 1.3,
+      "position": [
+        -3.45,
+        4.5,
+        0
+      ],
+      "yaw": 180,
+      "activity": "mend"
+    },
+    "monk_violet": {
+      "label": "MONK",
+      "color": "8977B8",
+      "height": 1.68,
+      "position": [
+        2.4,
+        6.3,
+        0
+      ],
+      "yaw": -105,
+      "activity": "tend"
+    },
+    "civilian_lilac": {
+      "label": "CIVILIAN",
+      "color": "BEA3CC",
+      "height": 1.48,
+      "position": [
+        3.1,
+        7.15,
+        0
+      ],
+      "yaw": 170,
+      "activity": "idle"
+    },
+    "soldier_blue": {
+      "label": "BLUE SOLDIER",
+      "color": "397DE3",
+      "height": 1.5,
+      "position": [
+        -2.4,
+        10.0,
+        0
+      ],
+      "yaw": 65,
+      "activity": "hammer"
+    },
+    "soldier_slate": {
+      "label": "SECOND SOLDIER",
+      "color": "6D99B8",
+      "height": 1.72,
+      "position": [
+        -3.45,
+        11.4,
+        0
+      ],
+      "yaw": -125,
+      "activity": "idle"
+    }
+  },
+  "props": {
+    "net_table": {
+      "position": [
+        -3.25,
+        3.15,
+        0.65
+      ],
+      "size": [
+        1.3,
+        1.9,
+        0.15
+      ],
+      "color": "777B72"
+    },
+    "net_patch": {
+      "position": [
+        -3.25,
+        3.15,
+        0.75
+      ],
+      "size": [
+        1.2,
+        1.7,
+        0.05
+      ],
+      "color": "B8B29B"
+    },
+    "shrine": {
+      "position": [
+        3.2,
+        6.1,
+        0.52
+      ],
+      "size": [
+        0.6,
+        0.6,
+        1.04
+      ],
+      "color": "C6BDAA"
+    },
+    "shrine_flame": {
+      "position": [
+        3.2,
+        6.1,
+        1.14
+      ],
+      "size": [
+        0.15,
+        0.15,
+        0.21
+      ],
+      "color": "F6B754"
+    },
+    "repair_bench": {
+      "position": [
+        -3.4,
+        10.35,
+        0.58
+      ],
+      "size": [
+        1.3,
+        1.2,
+        0.18
+      ],
+      "color": "777A79"
+    },
+    "shield_rack": {
+      "position": [
+        -3.25,
+        9.0,
+        0.7
+      ],
+      "size": [
+        1.6,
+        0.16,
+        0.13
+      ],
+      "color": "666B6B"
+    },
+    "shield_a": {
+      "position": [
+        -3.75,
+        9.0,
+        0.9
+      ],
+      "size": [
+        0.42,
+        0.12,
+        0.75
+      ],
+      "color": "B3BAC2"
+    },
+    "shield_b": {
+      "position": [
+        -3.15,
+        9.0,
+        0.9
+      ],
+      "size": [
+        0.42,
+        0.12,
+        0.75
+      ],
+      "color": "909CA7"
+    },
+    "shield_c": {
+      "position": [
+        -2.55,
+        9.0,
+        0.9
+      ],
+      "size": [
+        0.42,
+        0.12,
+        0.75
+      ],
+      "color": "B3BAC2"
+    },
+    "crate_01": {
+      "position": [
+        -4.1,
+        0.3,
+        0.4
+      ],
+      "size": [
+        0.8,
+        1.1,
+        0.8
+      ],
+      "color": "8E887A"
+    },
+    "crate_02": {
+      "position": [
+        -4.1,
+        5.4,
+        0.5
+      ],
+      "size": [
+        0.85,
+        0.85,
+        1.0
+      ],
+      "color": "8E887A"
+    },
+    "boat_01": {
+      "position": [
+        6.6,
+        3.0,
+        -0.3
+      ],
+      "size": [
+        1.7,
+        4.0,
+        0.5
+      ],
+      "color": "7C898A"
+    },
+    "boat_02": {
+      "position": [
+        7.0,
+        12.0,
+        -0.3
+      ],
+      "size": [
+        1.8,
+        4.6,
+        0.5
+      ],
+      "color": "7C898A"
+    }
+  },
+  "camera": {
+    "base": {
+      "mode": "follow",
+      "offset": [
+        0,
+        -9.08,
+        3.4
+      ],
+      "target": "pair",
+      "target_height": 1.05,
+      "look_ahead": 0.65,
+      "lens": 35
+    },
+    "cues": []
+  },
+  "actions": [
+    {
+      "id": "mara_notices_nets",
+      "kind": "look",
+      "actor": "mara",
+      "target": "refugee_teal",
+      "start": 0.3,
+      "end": 3.6,
+      "body_weight": 0.25
+    },
+    {
+      "id": "urban_glances_at_nets",
+      "kind": "look",
+      "actor": "urban",
+      "target": "refugee_teal",
+      "start": 0.8,
+      "end": 2.2,
+      "body_weight": 0.1
+    },
+    {
+      "id": "mara_addresses_urban",
+      "kind": "look",
+      "actor": "mara",
+      "target": "urban",
+      "start": 3.4,
+      "end": 4.5
+    },
+    {
+      "id": "mara_notices_shrine",
+      "kind": "look",
+      "actor": "mara",
+      "target": "monk_violet",
+      "start": 4.4,
+      "end": 5.6,
+      "body_weight": 0.2
+    },
+    {
+      "id": "urban_notices_shrine",
+      "kind": "look",
+      "actor": "urban",
+      "target": "monk_violet",
+      "start": 4.6,
+      "end": 5.8,
+      "body_weight": 0.12
+    },
+    {
+      "id": "mara_approaches_blue",
+      "kind": "turn",
+      "actor": "mara",
+      "target": "soldier_blue",
+      "start": 5.65,
+      "end": 17,
+      "fade_in": 0.6,
+      "fade_out": 0
+    },
+    {
+      "id": "urban_watches_mara",
+      "kind": "look",
+      "actor": "urban",
+      "target": "mara",
+      "start": 8.4,
+      "end": 17,
+      "fade_in": 0.7,
+      "fade_out": 0,
+      "body_weight": 0.08
+    },
+    {
+      "id": "mara_turns_to_urban",
+      "kind": "turn",
+      "actor": "mara",
+      "target": "urban",
+      "start": 11,
+      "end": 17,
+      "fade_in": 2,
+      "fade_out": 0
+    },
+    {
+      "id": "urban_faces_mara",
+      "kind": "turn",
+      "actor": "urban",
+      "target": "mara",
+      "start": 9.1,
+      "end": 17,
+      "fade_in": 1.2,
+      "fade_out": 0
+    },
+    {
+      "id": "mara_talks_to_blue",
+      "kind": "talk",
+      "actor": "mara",
+      "target": "soldier_blue",
+      "start": 8,
+      "end": 11,
+      "fade_in": 0.25,
+      "fade_out": 0.25
+    },
+    {
+      "id": "blue_answers_mara",
+      "kind": "talk",
+      "actor": "soldier_blue",
+      "target": "mara",
+      "start": 7,
+      "end": 12.2,
+      "fade_in": 1,
+      "fade_out": 1.2
+    }
+  ],
+  "beats": [
+    {
+      "start": 0,
+      "end": 2,
+      "label": "01  A CITY MENDS AROUND THEM"
+    },
+    {
+      "start": 2,
+      "end": 8,
+      "label": "02  FEAR HAS A BUYER"
+    },
+    {
+      "start": 8,
+      "end": 11,
+      "label": "MARA + BLUE SOLDIER  /  CONVERSATION"
+    },
+    {
+      "start": 11,
+      "end": 13.2,
+      "label": "03  MARA SLOWLY TURNS TO URBAN"
+    },
+    {
+      "start": 13.2,
+      "end": 17,
+      "label": "04  THE CLEAN-HANDED CORPSE"
+    }
+  ],
+  "dialogue": [
+    {
+      "start": 2.0,
+      "end": 4.0,
+      "speaker": "Mara",
+      "text": "They are afraid of your gun."
+    },
+    {
+      "start": 4.3,
+      "end": 7.6,
+      "speaker": "Urban",
+      "text": "They are afraid of the man who can afford it."
+    },
+    {
+      "start": 11.15,
+      "end": 13.15,
+      "speaker": "Mara",
+      "text": "Then do not go to him."
+    },
+    {
+      "start": 13.3,
+      "end": 16.8,
+      "speaker": "Urban",
+      "text": "A design unfired is a corpse with clean hands."
+    }
+  ]
+}

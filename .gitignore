@@ -1,0 +1,7 @@
+.DS_Store
+tmp/
+.renku/project-database-backups/
+.renku/trash/
+.renku/project.sqlite-shm
+.renku/project.sqlite-wal
+*.blend1
