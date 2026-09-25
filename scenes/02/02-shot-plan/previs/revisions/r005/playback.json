@@ -1,0 +1,147 @@
+{
+  "frameRate": {
+    "numerator": 24,
+    "denominator": 1
+  },
+  "frameCount": 720,
+  "segments": [
+    {
+      "id": "master-opening",
+      "startFrame": 0,
+      "label": "Symmetrical master \u2014 unroll and present"
+    },
+    {
+      "id": "gun-insert",
+      "startFrame": 100,
+      "label": "Cannon drawing \u2014 It changes the mind"
+    },
+    {
+      "id": "loukas-close",
+      "startFrame": 172,
+      "label": "Loukas \u2014 the treasurer"
+    },
+    {
+      "id": "urban-reaction",
+      "startFrame": 254,
+      "label": "Urban reaction \u2014 emperor off-screen"
+    },
+    {
+      "id": "master-return",
+      "startFrame": 310,
+      "label": "Return to master \u2014 requirements and whisper"
+    }
+  ],
+  "subjects": [
+    {
+      "key": "urban",
+      "label": "Urban",
+      "color": "#997554"
+    },
+    {
+      "key": "loukas",
+      "label": "Loukas Notaras",
+      "color": "#8E493E"
+    },
+    {
+      "key": "emperor",
+      "label": "Constantine XI",
+      "color": "#B89C56"
+    }
+  ],
+  "cues": [
+    {
+      "id": "unroll",
+      "kind": "action",
+      "startFrame": 6,
+      "subject": "urban",
+      "text": "Urban stands upright and unrolls the cannon drawing across the table."
+    },
+    {
+      "id": "urban-gun",
+      "kind": "dialogue",
+      "startFrame": 48,
+      "speaker": "urban",
+      "text": "A gun this size does not defend a wall. It changes the mind of the man approaching it.",
+      "endFrame": 155,
+      "audio": {
+        "assetId": "asset_ueh2dza5",
+        "assetFileId": "asset_file_tj2c5gmn",
+        "offsetSeconds": 0.33333333333333326
+      }
+    },
+    {
+      "id": "lean-point",
+      "kind": "action",
+      "startFrame": 48,
+      "subject": "urban",
+      "text": "Urban begins speaking, leans over the table and points at the cannon drawing."
+    },
+    {
+      "id": "braced",
+      "kind": "action",
+      "startFrame": 79,
+      "subject": "urban",
+      "text": "Urban settles with his left hand braced on the table and right hand indicating the drawing."
+    },
+    {
+      "id": "loukas-treasurer",
+      "kind": "dialogue",
+      "startFrame": 172,
+      "speaker": "loukas",
+      "text": "It changes the mind of the treasurer first.",
+      "endFrame": 254,
+      "audio": {
+        "assetId": "asset_ueh2dza5",
+        "assetFileId": "asset_file_tj2c5gmn",
+        "offsetSeconds": 5.5
+      }
+    },
+    {
+      "id": "puzzled",
+      "kind": "action",
+      "startFrame": 254,
+      "subject": "urban",
+      "text": "Urban tilts his head, puzzled by Loukas. The emperor asks his question off-screen."
+    },
+    {
+      "id": "emperor-require",
+      "kind": "dialogue",
+      "startFrame": 273,
+      "speaker": "emperor",
+      "text": "What would you require?",
+      "endFrame": 299,
+      "audio": {
+        "assetId": "asset_ueh2dza5",
+        "assetFileId": "asset_file_tj2c5gmn",
+        "offsetSeconds": 9.708333333333334
+      }
+    },
+    {
+      "id": "urban-requirements",
+      "kind": "dialogue",
+      "startFrame": 310,
+      "speaker": "urban",
+      "text": "Bronze. Powder. Charcoal. Masons. Carpenters. Oxen. A foundry that can breathe without collapsing. And pay enough that my men do not sell the design before the mold dries.",
+      "endFrame": 638,
+      "audio": {
+        "assetId": "asset_ueh2dza5",
+        "assetFileId": "asset_file_tj2c5gmn",
+        "offsetSeconds": 11.25
+      }
+    },
+    {
+      "id": "whisper",
+      "kind": "action",
+      "startFrame": 576,
+      "subject": "loukas",
+      "text": "Loukas leans toward the emperor\u2019s near ear to whisper inaudibly."
+    },
+    {
+      "id": "whisper-arrival",
+      "kind": "action",
+      "startFrame": 612,
+      "subject": "loukas",
+      "text": "Loukas reaches the emperor\u2019s ear and holds the private whisper through the end."
+    }
+  ]
+}

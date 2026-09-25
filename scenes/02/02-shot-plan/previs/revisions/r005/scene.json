@@ -1,0 +1,171 @@
+{
+  "fps": 24,
+  "duration": 30,
+  "resolution": [
+    960,
+    540
+  ],
+  "axes": "Metres. +Y runs from entrance toward icons; +X is master screen-right; +Z up. Characters face local +Y.",
+  "characters": {
+    "urban": {
+      "position": [
+        -1.15,
+        0,
+        0
+      ],
+      "yaw": -90
+    },
+    "loukas": {
+      "position": [
+        1.25,
+        -0.45,
+        0
+      ],
+      "yaw": 90
+    },
+    "emperor": {
+      "position": [
+        1.25,
+        0.55,
+        0
+      ],
+      "yaw": 90
+    }
+  },
+  "cameras": {
+    "master": {
+      "position": [
+        0,
+        -5.6,
+        2.2
+      ],
+      "target": [
+        0,
+        0.3,
+        1.3
+      ],
+      "lens": 32
+    },
+    "drawing": {
+      "position": [
+        0,
+        -0.65,
+        2.55
+      ],
+      "target": [
+        0,
+        0,
+        0.99
+      ],
+      "lens": 48
+    },
+    "loukas": {
+      "position": [
+        -0.95,
+        -0.7,
+        1.44
+      ],
+      "target": [
+        1.25,
+        -0.45,
+        1.31
+      ],
+      "lens": 78
+    },
+    "urban": {
+      "position": [
+        0.9,
+        -1.4,
+        1.82
+      ],
+      "target": [
+        -0.96,
+        0,
+        1.57
+      ],
+      "lens": 72
+    }
+  },
+  "cuts": [
+    {
+      "id": "master-opening",
+      "seconds": 0.0,
+      "camera": "master",
+      "label": "Symmetrical master \u2014 unroll and present"
+    },
+    {
+      "id": "gun-insert",
+      "seconds": 4.166666666666667,
+      "camera": "drawing",
+      "label": "Cannon drawing \u2014 It changes the mind"
+    },
+    {
+      "id": "loukas-close",
+      "seconds": 7.166666666666667,
+      "camera": "loukas",
+      "label": "Loukas \u2014 the treasurer"
+    },
+    {
+      "id": "urban-reaction",
+      "seconds": 10.583333333333334,
+      "camera": "urban",
+      "label": "Urban reaction \u2014 emperor off-screen"
+    },
+    {
+      "id": "master-return",
+      "seconds": 12.916666666666666,
+      "camera": "master",
+      "label": "Return to master \u2014 requirements and whisper"
+    }
+  ],
+  "dialogue": [
+    {
+      "turn": 2,
+      "id": "urban-gun",
+      "subject": "urban",
+      "startSeconds": 2.0,
+      "text": "A gun this size does not defend a wall. It changes the mind of the man approaching it.",
+      "endSeconds": 6.458333333333333
+    },
+    {
+      "turn": 3,
+      "id": "loukas-treasurer",
+      "subject": "loukas",
+      "startSeconds": 7.166666666666667,
+      "text": "It changes the mind of the treasurer first.",
+      "endSeconds": 10.583333333333334
+    },
+    {
+      "turn": 4,
+      "id": "emperor-require",
+      "subject": "emperor",
+      "startSeconds": 11.375,
+      "text": "What would you require?",
+      "endSeconds": 12.458333333333334
+    },
+    {
+      "turn": 5,
+      "id": "urban-requirements",
+      "subject": "urban",
+      "startSeconds": 12.916666666666666,
+      "text": "Bronze. Powder. Charcoal. Masons. Carpenters. Oxen. A foundry that can breathe without collapsing. And pay enough that my men do not sell the design before the mold dries.",
+      "endSeconds": 26.583333333333332
+    }
+  ],
+  "action": {
+    "unrollStart": 0.25,
+    "unrollEnd": 2,
+    "leanStart": 2,
+    "leanEnd": 3.3,
+    "puzzled": 10.583333333333334,
+    "whisperStart": 24,
+    "whisperArrive": 25.5
+  },
+  "timingNote": "30 seconds / 720 frames. Accepted Seed Audio take inserted at 40/24 seconds unchanged in speed. Dialogue and phrase cue estimates use automated word transcription and silence detection, rounded to nearest 24 fps frame; not a manual auditory alignment. Insert at source It changes onset about 2.52 seconds. 15-second delivery boundary falls in the pause between Powder and Charcoal; no creative cut there. Render frame 1 = playback frame 0.",
+  "audio": {
+    "projectRelativePath": "scenes/02/02-shot-plan/dialogues/turns-02-05-g9j5.mp3",
+    "assetId": "asset_ueh2dza5",
+    "assetFileId": "asset_file_tj2c5gmn",
+    "offsetSeconds": 1.6666666666666667
+  }
+}
