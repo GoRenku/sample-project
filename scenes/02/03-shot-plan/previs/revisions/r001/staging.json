@@ -1,0 +1,1976 @@
+{
+  "version": 5,
+  "staging": {
+    "frameRate": {
+      "numerator": 24,
+      "denominator": 1
+    },
+    "frameCount": 720,
+    "output": {
+      "width": 1280,
+      "height": 720
+    },
+    "locationId": "location_g9s9246r",
+    "cast": [
+      {
+        "castMemberId": "cast_sb5y4gjk",
+        "marks": [
+          {
+            "id": "urban-start",
+            "frame": 0,
+            "position": [
+              -1.15,
+              0
+            ],
+            "facing": -90,
+            "body": "stand",
+            "torso": "upright",
+            "arms": "rest",
+            "lookAt": {
+              "kind": "dressing",
+              "key": "bombard-drawing"
+            }
+          },
+          {
+            "id": "unroll",
+            "frame": 6,
+            "arms": "reach",
+            "blendFrames": 12,
+            "cue": "Urban stands upright and unrolls the cannon drawing across the table."
+          },
+          {
+            "id": "lean-point",
+            "frame": 48,
+            "torso": "lean",
+            "arms": "point",
+            "blendFrames": 31,
+            "cue": "Urban begins speaking, leans over the table and points at the cannon drawing."
+          },
+          {
+            "id": "braced",
+            "frame": 79,
+            "cue": "Urban settles with his left hand braced on the table and right hand indicating the drawing."
+          },
+          {
+            "id": "urban-to-loukas",
+            "frame": 172,
+            "torso": "upright",
+            "arms": "rest",
+            "lookAt": {
+              "kind": "cast",
+              "castMemberId": "cast_p7y36x5t"
+            },
+            "blendFrames": 19
+          },
+          {
+            "id": "urban-to-emperor",
+            "frame": 254,
+            "lookAt": {
+              "kind": "cast",
+              "castMemberId": "cast_pccfdknw"
+            }
+          },
+          {
+            "id": "urban-list-gesture",
+            "frame": 466,
+            "arms": "gesture",
+            "blendFrames": 14
+          },
+          {
+            "id": "urban-watches-whisper",
+            "frame": 576,
+            "lookAt": {
+              "kind": "cast",
+              "castMemberId": "cast_p7y36x5t"
+            },
+            "arms": "rest"
+          }
+        ]
+      },
+      {
+        "castMemberId": "cast_p7y36x5t",
+        "marks": [
+          {
+            "id": "loukas-start",
+            "frame": 0,
+            "position": [
+              1.25,
+              0.45
+            ],
+            "facing": 90,
+            "body": "sit",
+            "torso": "upright",
+            "arms": "rest",
+            "lookAt": {
+              "kind": "cast",
+              "castMemberId": "cast_sb5y4gjk"
+            }
+          },
+          {
+            "id": "loukas-reply",
+            "frame": 172,
+            "arms": "gesture",
+            "blendFrames": 12
+          },
+          {
+            "id": "loukas-rest",
+            "frame": 254,
+            "arms": "rest",
+            "blendFrames": 14
+          },
+          {
+            "id": "whisper",
+            "frame": 576,
+            "torso": "lean",
+            "lookAt": {
+              "kind": "cast",
+              "castMemberId": "cast_pccfdknw"
+            },
+            "blendFrames": 36,
+            "cue": "Loukas leans toward the emperor’s near ear to whisper inaudibly."
+          },
+          {
+            "id": "whisper-arrival",
+            "frame": 612,
+            "cue": "Loukas reaches the emperor’s ear and holds the private whisper through the end."
+          }
+        ]
+      },
+      {
+        "castMemberId": "cast_pccfdknw",
+        "marks": [
+          {
+            "id": "emperor-start",
+            "frame": 0,
+            "position": [
+              1.25,
+              -0.55
+            ],
+            "facing": 90,
+            "body": "sit",
+            "torso": "upright",
+            "arms": "rest",
+            "lookAt": {
+              "kind": "cast",
+              "castMemberId": "cast_sb5y4gjk"
+            }
+          },
+          {
+            "id": "emperor-attention",
+            "frame": 254,
+            "cue": "Constantine meets Urban’s gaze, then visibly asks his question in close-up."
+          },
+          {
+            "id": "emperor-hears-whisper",
+            "frame": 588,
+            "lookAt": {
+              "kind": "cast",
+              "castMemberId": "cast_p7y36x5t"
+            },
+            "blendFrames": 19
+          }
+        ]
+      }
+    ],
+    "extras": [],
+    "props": [],
+    "dressing": [
+      {
+        "key": "bombard-drawing",
+        "label": "Bombard drawing",
+        "imageCard": {
+          "assetFileId": "asset_file_qfjd9fte",
+          "size": [
+            1.38,
+            0.95
+          ],
+          "unrollFrom": "south"
+        },
+        "marks": [
+          {
+            "id": "drawing-rolled",
+            "frame": 0,
+            "position": [
+              0,
+              1.032,
+              0
+            ],
+            "unroll": 0.07
+          },
+          {
+            "id": "drawing-unroll-starts",
+            "frame": 6,
+            "unroll": 0.07
+          },
+          {
+            "id": "drawing-open",
+            "frame": 48,
+            "unroll": 1
+          }
+        ]
+      }
+    ],
+    "cameras": [
+      {
+        "key": "wide",
+        "label": "Master wide",
+        "lens": 32,
+        "placement": {
+          "kind": "fixed",
+          "position": [
+            0.18,
+            2.2,
+            5.44
+          ],
+          "aim": [
+            0,
+            1.3,
+            -0.3
+          ]
+        },
+        "marks": []
+      },
+      {
+        "key": "insert",
+        "label": "Drawing insert",
+        "lens": 48,
+        "placement": {
+          "kind": "fixed",
+          "position": [
+            0,
+            2.55,
+            0.65
+          ],
+          "aim": [
+            0,
+            0.99,
+            0
+          ]
+        },
+        "marks": []
+      },
+      {
+        "key": "loukas-close",
+        "label": "Loukas close",
+        "lens": 78,
+        "placement": {
+          "kind": "fixed",
+          "position": [
+            -0.95,
+            1.44,
+            0.7
+          ],
+          "aim": [
+            1.25,
+            1.31,
+            0.45
+          ]
+        },
+        "marks": []
+      },
+      {
+        "key": "emperor-close",
+        "label": "Constantine close",
+        "lens": 78,
+        "placement": {
+          "kind": "fixed",
+          "position": [
+            -0.95,
+            1.49,
+            -0.28
+          ],
+          "aim": [
+            1.25,
+            1.34,
+            -0.55
+          ]
+        },
+        "marks": []
+      },
+      {
+        "key": "urban-close",
+        "label": "Urban close",
+        "lens": 72,
+        "placement": {
+          "kind": "fixed",
+          "position": [
+            0.9,
+            1.82,
+            1.4
+          ],
+          "aim": [
+            -0.96,
+            1.57,
+            0
+          ]
+        },
+        "marks": []
+      }
+    ],
+    "cuts": [
+      {
+        "id": "master-opening",
+        "frame": 0,
+        "camera": "wide",
+        "label": "Symmetrical master — unroll and present"
+      },
+      {
+        "id": "gun-insert",
+        "frame": 100,
+        "camera": "insert",
+        "label": "Cannon drawing — It changes the mind"
+      },
+      {
+        "id": "loukas-close",
+        "frame": 172,
+        "camera": "loukas-close",
+        "label": "Loukas — the treasurer"
+      },
+      {
+        "id": "emperor-close",
+        "frame": 254,
+        "camera": "emperor-close",
+        "label": "Constantine close-up — What would you require?"
+      },
+      {
+        "id": "urban-list-close",
+        "frame": 310,
+        "camera": "urban-close",
+        "label": "Urban close-up — Bronze through Oxen"
+      },
+      {
+        "id": "master-return",
+        "frame": 466,
+        "camera": "wide",
+        "label": "Return to master — A foundry that… and whisper"
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "urban-gun",
+        "speaker": {
+          "kind": "cast",
+          "castMemberId": "cast_sb5y4gjk"
+        },
+        "startFrame": 48,
+        "endFrame": 155,
+        "text": "A gun this size does not defend a wall. It changes the mind of the man approaching it.",
+        "audio": {
+          "assetFileId": "asset_file_tj2c5gmn",
+          "offsetSeconds": 0.33333333333333326
+        }
+      },
+      {
+        "id": "loukas-treasurer",
+        "speaker": {
+          "kind": "cast",
+          "castMemberId": "cast_p7y36x5t"
+        },
+        "startFrame": 172,
+        "endFrame": 254,
+        "text": "It changes the mind of the treasurer first.",
+        "audio": {
+          "assetFileId": "asset_file_tj2c5gmn",
+          "offsetSeconds": 5.5
+        }
+      },
+      {
+        "id": "emperor-require",
+        "speaker": {
+          "kind": "cast",
+          "castMemberId": "cast_pccfdknw"
+        },
+        "startFrame": 273,
+        "endFrame": 299,
+        "text": "What would you require?",
+        "audio": {
+          "assetFileId": "asset_file_tj2c5gmn",
+          "offsetSeconds": 9.708333333333334
+        }
+      },
+      {
+        "id": "urban-requirements",
+        "speaker": {
+          "kind": "cast",
+          "castMemberId": "cast_sb5y4gjk"
+        },
+        "startFrame": 310,
+        "endFrame": 638,
+        "text": "Bronze. Powder. Charcoal. Masons. Carpenters. Oxen. A foundry that can breathe without collapsing. And pay enough that my men do not sell the design before the mold dries.",
+        "audio": {
+          "assetFileId": "asset_file_tj2c5gmn",
+          "offsetSeconds": 11.25
+        }
+      }
+    ],
+    "description": "## Blocking & camera\n\nSymmetrical master of the Imperial Council Chamber: the windows and a standing Urban on the left, Loukas Notaras and Constantine XI seated on the right, the icon wall behind them. Urban unrolls the bombard drawing across the table from 0.25 to 2 seconds, then leans over the table and points at it as he begins to speak, settling with his left hand braced on the table.\n\nCut to an overhead insert of the drawing at 4.17 s, to Loukas in close-up at 7.17 s, and to Constantine at 10.58 s; Constantine meets Urban's gaze and visibly asks his question. Urban's close-up starts at 12.92 s and holds through the materials list. Return to the master at 19.42 s on \"A foundry that…\". At 24 s Loukas leans toward Constantine's near ear; the inaudible whisper arrives at 25.5 s and holds to the end.\n\n## Dialogue & timing\n\n**2.00–6.46 s · Urban:** A gun this size does not defend a wall. It changes the mind of the man approaching it.\n\n**7.17–10.58 s · Loukas:** It changes the mind of the treasurer first.\n\n**11.38–12.46 s · Constantine:** What would you require?\n\n**12.92–26.58 s · Urban:** Bronze. Powder. Charcoal. Masons. Carpenters. Oxen. A foundry that can breathe without collapsing. And pay enough that my men do not sell the design before the mold dries.\n\nThe lines use the accepted dialogue recording (turns 2–5). The recorded video is silent.\n"
+  },
+  "location": {
+    "locationId": "location_g9s9246r",
+    "name": "Imperial Council Chamber",
+    "version": 1,
+    "layout": {
+      "objects": [
+        {
+          "key": "floor",
+          "label": "Stone floor",
+          "blocks": [
+            {
+              "shape": "box",
+              "position": [
+                0,
+                -0.12,
+                0
+              ],
+              "size": [
+                7.2,
+                0.24,
+                12
+              ],
+              "color": "#78786E"
+            }
+          ]
+        },
+        {
+          "key": "walls",
+          "label": "Walls and piers",
+          "blocks": [
+            {
+              "shape": "box",
+              "position": [
+                0,
+                2.6,
+                -5.7
+              ],
+              "size": [
+                7.2,
+                5.2,
+                0.25
+              ],
+              "color": "#99998C"
+            },
+            {
+              "shape": "box",
+              "position": [
+                3.6,
+                2.6,
+                0
+              ],
+              "size": [
+                0.25,
+                5.2,
+                11.5
+              ],
+              "color": "#99998C"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -3.6,
+                0.5,
+                0
+              ],
+              "size": [
+                0.3,
+                1,
+                11.5
+              ],
+              "color": "#99998C"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -3.6,
+                4.85,
+                0
+              ],
+              "size": [
+                0.3,
+                0.7,
+                11.5
+              ],
+              "color": "#99998C"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -3.6,
+                2.6,
+                5.5
+              ],
+              "size": [
+                0.3,
+                5.2,
+                0.62
+              ],
+              "color": "#99998C"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -3.6,
+                2.6,
+                3.3
+              ],
+              "size": [
+                0.3,
+                5.2,
+                0.62
+              ],
+              "color": "#99998C"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -3.6,
+                2.6,
+                1.1
+              ],
+              "size": [
+                0.3,
+                5.2,
+                0.62
+              ],
+              "color": "#99998C"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -3.6,
+                2.6,
+                -1.1
+              ],
+              "size": [
+                0.3,
+                5.2,
+                0.62
+              ],
+              "color": "#99998C"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -3.6,
+                2.6,
+                -3.3
+              ],
+              "size": [
+                0.3,
+                5.2,
+                0.62
+              ],
+              "color": "#99998C"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -3.6,
+                2.6,
+                -5.5
+              ],
+              "size": [
+                0.3,
+                5.2,
+                0.62
+              ],
+              "color": "#99998C"
+            }
+          ]
+        },
+        {
+          "key": "windows",
+          "label": "Windows",
+          "blocks": [
+            {
+              "shape": "box",
+              "position": [
+                -3.68,
+                2.7,
+                4.4
+              ],
+              "size": [
+                0.06,
+                3.35,
+                1.35
+              ],
+              "color": "#BAD0D8"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -3.58,
+                2.75,
+                5.18
+              ],
+              "size": [
+                0.35,
+                3.5,
+                0.2
+              ],
+              "color": "#C4C1AF"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -3.58,
+                2.75,
+                3.62
+              ],
+              "size": [
+                0.35,
+                3.5,
+                0.2
+              ],
+              "color": "#C4C1AF"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -3.45,
+                1.05,
+                4.4
+              ],
+              "size": [
+                0.55,
+                0.15,
+                1.7
+              ],
+              "color": "#C4C1AF"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -3.56,
+                2.45,
+                4.4
+              ],
+              "size": [
+                0.08,
+                2.8,
+                0.055
+              ],
+              "color": "#716F62"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -3.56,
+                2.8,
+                4.4
+              ],
+              "size": [
+                0.08,
+                0.05,
+                1.4
+              ],
+              "color": "#716F62"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -3.68,
+                2.7,
+                2.2
+              ],
+              "size": [
+                0.06,
+                3.35,
+                1.35
+              ],
+              "color": "#BAD0D8"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -3.58,
+                2.75,
+                2.98
+              ],
+              "size": [
+                0.35,
+                3.5,
+                0.2
+              ],
+              "color": "#C4C1AF"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -3.58,
+                2.75,
+                1.42
+              ],
+              "size": [
+                0.35,
+                3.5,
+                0.2
+              ],
+              "color": "#C4C1AF"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -3.45,
+                1.05,
+                2.2
+              ],
+              "size": [
+                0.55,
+                0.15,
+                1.7
+              ],
+              "color": "#C4C1AF"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -3.56,
+                2.45,
+                2.2
+              ],
+              "size": [
+                0.08,
+                2.8,
+                0.055
+              ],
+              "color": "#716F62"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -3.56,
+                2.8,
+                2.2
+              ],
+              "size": [
+                0.08,
+                0.05,
+                1.4
+              ],
+              "color": "#716F62"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -3.68,
+                2.7,
+                0
+              ],
+              "size": [
+                0.06,
+                3.35,
+                1.35
+              ],
+              "color": "#BAD0D8"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -3.58,
+                2.75,
+                0.78
+              ],
+              "size": [
+                0.35,
+                3.5,
+                0.2
+              ],
+              "color": "#C4C1AF"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -3.58,
+                2.75,
+                -0.78
+              ],
+              "size": [
+                0.35,
+                3.5,
+                0.2
+              ],
+              "color": "#C4C1AF"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -3.45,
+                1.05,
+                0
+              ],
+              "size": [
+                0.55,
+                0.15,
+                1.7
+              ],
+              "color": "#C4C1AF"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -3.56,
+                2.45,
+                0
+              ],
+              "size": [
+                0.08,
+                2.8,
+                0.055
+              ],
+              "color": "#716F62"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -3.56,
+                2.8,
+                0
+              ],
+              "size": [
+                0.08,
+                0.05,
+                1.4
+              ],
+              "color": "#716F62"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -3.68,
+                2.7,
+                -2.2
+              ],
+              "size": [
+                0.06,
+                3.35,
+                1.35
+              ],
+              "color": "#BAD0D8"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -3.58,
+                2.75,
+                -1.42
+              ],
+              "size": [
+                0.35,
+                3.5,
+                0.2
+              ],
+              "color": "#C4C1AF"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -3.58,
+                2.75,
+                -2.98
+              ],
+              "size": [
+                0.35,
+                3.5,
+                0.2
+              ],
+              "color": "#C4C1AF"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -3.45,
+                1.05,
+                -2.2
+              ],
+              "size": [
+                0.55,
+                0.15,
+                1.7
+              ],
+              "color": "#C4C1AF"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -3.56,
+                2.45,
+                -2.2
+              ],
+              "size": [
+                0.08,
+                2.8,
+                0.055
+              ],
+              "color": "#716F62"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -3.56,
+                2.8,
+                -2.2
+              ],
+              "size": [
+                0.08,
+                0.05,
+                1.4
+              ],
+              "color": "#716F62"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -3.68,
+                2.7,
+                -4.4
+              ],
+              "size": [
+                0.06,
+                3.35,
+                1.35
+              ],
+              "color": "#BAD0D8"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -3.58,
+                2.75,
+                -3.62
+              ],
+              "size": [
+                0.35,
+                3.5,
+                0.2
+              ],
+              "color": "#C4C1AF"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -3.58,
+                2.75,
+                -5.18
+              ],
+              "size": [
+                0.35,
+                3.5,
+                0.2
+              ],
+              "color": "#C4C1AF"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -3.45,
+                1.05,
+                -4.4
+              ],
+              "size": [
+                0.55,
+                0.15,
+                1.7
+              ],
+              "color": "#C4C1AF"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -3.56,
+                2.45,
+                -4.4
+              ],
+              "size": [
+                0.08,
+                2.8,
+                0.055
+              ],
+              "color": "#716F62"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -3.56,
+                2.8,
+                -4.4
+              ],
+              "size": [
+                0.08,
+                0.05,
+                1.4
+              ],
+              "color": "#716F62"
+            }
+          ]
+        },
+        {
+          "key": "icon-wall",
+          "label": "Icon wall",
+          "blocks": [
+            {
+              "shape": "box",
+              "position": [
+                0,
+                0.8,
+                -5.48
+              ],
+              "size": [
+                7,
+                1.6,
+                0.13
+              ],
+              "color": "#493E2E"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -2.6,
+                3.1,
+                -5.47
+              ],
+              "size": [
+                1.15,
+                2.05,
+                0.13
+              ],
+              "color": "#9A7E42"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -2.6,
+                3.1,
+                -5.38
+              ],
+              "size": [
+                1.02,
+                1.88,
+                0.035
+              ],
+              "color": "#413E30"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -2.6,
+                3.55,
+                -5.345
+              ],
+              "size": [
+                0.58,
+                0.6,
+                0.02
+              ],
+              "color": "#B59D5D"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -2.6,
+                3.5,
+                -5.33
+              ],
+              "size": [
+                0.24,
+                0.34,
+                0.02
+              ],
+              "color": "#9F8360"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -2.6,
+                2.85,
+                -5.33
+              ],
+              "size": [
+                0.5,
+                0.65,
+                0.02
+              ],
+              "color": "#716044"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -1.3,
+                3.1,
+                -5.47
+              ],
+              "size": [
+                1.15,
+                2.05,
+                0.13
+              ],
+              "color": "#9A7E42"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -1.3,
+                3.1,
+                -5.38
+              ],
+              "size": [
+                1.02,
+                1.88,
+                0.035
+              ],
+              "color": "#413E30"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -1.3,
+                3.55,
+                -5.345
+              ],
+              "size": [
+                0.58,
+                0.6,
+                0.02
+              ],
+              "color": "#B59D5D"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -1.3,
+                3.5,
+                -5.33
+              ],
+              "size": [
+                0.24,
+                0.34,
+                0.02
+              ],
+              "color": "#9F8360"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -1.3,
+                2.85,
+                -5.33
+              ],
+              "size": [
+                0.5,
+                0.65,
+                0.02
+              ],
+              "color": "#716044"
+            },
+            {
+              "shape": "box",
+              "position": [
+                0,
+                3.1,
+                -5.47
+              ],
+              "size": [
+                1.15,
+                2.05,
+                0.13
+              ],
+              "color": "#9A7E42"
+            },
+            {
+              "shape": "box",
+              "position": [
+                0,
+                3.1,
+                -5.38
+              ],
+              "size": [
+                1.02,
+                1.88,
+                0.035
+              ],
+              "color": "#413E30"
+            },
+            {
+              "shape": "box",
+              "position": [
+                0,
+                3.55,
+                -5.345
+              ],
+              "size": [
+                0.58,
+                0.6,
+                0.02
+              ],
+              "color": "#B59D5D"
+            },
+            {
+              "shape": "box",
+              "position": [
+                0,
+                3.5,
+                -5.33
+              ],
+              "size": [
+                0.24,
+                0.34,
+                0.02
+              ],
+              "color": "#9F8360"
+            },
+            {
+              "shape": "box",
+              "position": [
+                0,
+                2.85,
+                -5.33
+              ],
+              "size": [
+                0.5,
+                0.65,
+                0.02
+              ],
+              "color": "#716044"
+            },
+            {
+              "shape": "box",
+              "position": [
+                1.3,
+                3.1,
+                -5.47
+              ],
+              "size": [
+                1.15,
+                2.05,
+                0.13
+              ],
+              "color": "#9A7E42"
+            },
+            {
+              "shape": "box",
+              "position": [
+                1.3,
+                3.1,
+                -5.38
+              ],
+              "size": [
+                1.02,
+                1.88,
+                0.035
+              ],
+              "color": "#413E30"
+            },
+            {
+              "shape": "box",
+              "position": [
+                1.3,
+                3.55,
+                -5.345
+              ],
+              "size": [
+                0.58,
+                0.6,
+                0.02
+              ],
+              "color": "#B59D5D"
+            },
+            {
+              "shape": "box",
+              "position": [
+                1.3,
+                3.5,
+                -5.33
+              ],
+              "size": [
+                0.24,
+                0.34,
+                0.02
+              ],
+              "color": "#9F8360"
+            },
+            {
+              "shape": "box",
+              "position": [
+                1.3,
+                2.85,
+                -5.33
+              ],
+              "size": [
+                0.5,
+                0.65,
+                0.02
+              ],
+              "color": "#716044"
+            },
+            {
+              "shape": "box",
+              "position": [
+                2.6,
+                3.1,
+                -5.47
+              ],
+              "size": [
+                1.15,
+                2.05,
+                0.13
+              ],
+              "color": "#9A7E42"
+            },
+            {
+              "shape": "box",
+              "position": [
+                2.6,
+                3.1,
+                -5.38
+              ],
+              "size": [
+                1.02,
+                1.88,
+                0.035
+              ],
+              "color": "#413E30"
+            },
+            {
+              "shape": "box",
+              "position": [
+                2.6,
+                3.55,
+                -5.345
+              ],
+              "size": [
+                0.58,
+                0.6,
+                0.02
+              ],
+              "color": "#B59D5D"
+            },
+            {
+              "shape": "box",
+              "position": [
+                2.6,
+                3.5,
+                -5.33
+              ],
+              "size": [
+                0.24,
+                0.34,
+                0.02
+              ],
+              "color": "#9F8360"
+            },
+            {
+              "shape": "box",
+              "position": [
+                2.6,
+                2.85,
+                -5.33
+              ],
+              "size": [
+                0.5,
+                0.65,
+                0.02
+              ],
+              "color": "#716044"
+            }
+          ]
+        },
+        {
+          "key": "sideboards",
+          "label": "Ledger sideboards",
+          "blocks": [
+            {
+              "shape": "box",
+              "position": [
+                3.1,
+                0.55,
+                -1.8
+              ],
+              "size": [
+                0.65,
+                1.1,
+                1.6
+              ],
+              "color": "#524736"
+            },
+            {
+              "shape": "box",
+              "position": [
+                3.08,
+                1.14,
+                -1.8
+              ],
+              "size": [
+                0.8,
+                0.1,
+                1.8
+              ],
+              "color": "#716047"
+            },
+            {
+              "shape": "box",
+              "position": [
+                3.1,
+                0.55,
+                -4
+              ],
+              "size": [
+                0.65,
+                1.1,
+                1.6
+              ],
+              "color": "#524736"
+            },
+            {
+              "shape": "box",
+              "position": [
+                3.08,
+                1.14,
+                -4
+              ],
+              "size": [
+                0.8,
+                0.1,
+                1.8
+              ],
+              "color": "#716047"
+            }
+          ]
+        },
+        {
+          "key": "council-table",
+          "label": "Council table",
+          "blocks": [
+            {
+              "shape": "box",
+              "position": [
+                0,
+                0.94,
+                0
+              ],
+              "size": [
+                1.8,
+                0.15,
+                5
+              ],
+              "color": "#67503A"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -0.68,
+                0.45,
+                1.95
+              ],
+              "size": [
+                0.16,
+                0.9,
+                0.18
+              ],
+              "color": "#4F3E2F"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -0.68,
+                0.45,
+                -1.95
+              ],
+              "size": [
+                0.16,
+                0.9,
+                0.18
+              ],
+              "color": "#4F3E2F"
+            },
+            {
+              "shape": "box",
+              "position": [
+                0.68,
+                0.45,
+                1.95
+              ],
+              "size": [
+                0.16,
+                0.9,
+                0.18
+              ],
+              "color": "#4F3E2F"
+            },
+            {
+              "shape": "box",
+              "position": [
+                0.68,
+                0.45,
+                -1.95
+              ],
+              "size": [
+                0.16,
+                0.9,
+                0.18
+              ],
+              "color": "#4F3E2F"
+            }
+          ]
+        },
+        {
+          "key": "chairs",
+          "label": "Chairs",
+          "blocks": [
+            {
+              "shape": "box",
+              "position": [
+                1.3,
+                0.48,
+                0.45
+              ],
+              "size": [
+                0.65,
+                0.12,
+                0.64
+              ],
+              "color": "#493B2E"
+            },
+            {
+              "shape": "box",
+              "position": [
+                1.6,
+                0.94,
+                0.45
+              ],
+              "size": [
+                0.1,
+                0.95,
+                0.65
+              ],
+              "color": "#493B2E"
+            },
+            {
+              "shape": "box",
+              "position": [
+                1.05,
+                0.24,
+                0.72
+              ],
+              "size": [
+                0.07,
+                0.48,
+                0.07
+              ],
+              "color": "#493B2E"
+            },
+            {
+              "shape": "box",
+              "position": [
+                1.55,
+                0.24,
+                0.72
+              ],
+              "size": [
+                0.07,
+                0.48,
+                0.07
+              ],
+              "color": "#493B2E"
+            },
+            {
+              "shape": "box",
+              "position": [
+                1.05,
+                0.24,
+                0.18
+              ],
+              "size": [
+                0.07,
+                0.48,
+                0.07
+              ],
+              "color": "#493B2E"
+            },
+            {
+              "shape": "box",
+              "position": [
+                1.55,
+                0.24,
+                0.18
+              ],
+              "size": [
+                0.07,
+                0.48,
+                0.07
+              ],
+              "color": "#493B2E"
+            },
+            {
+              "shape": "box",
+              "position": [
+                1.3,
+                0.48,
+                -0.55
+              ],
+              "size": [
+                0.65,
+                0.12,
+                0.64
+              ],
+              "color": "#493B2E"
+            },
+            {
+              "shape": "box",
+              "position": [
+                1.6,
+                0.94,
+                -0.55
+              ],
+              "size": [
+                0.1,
+                0.95,
+                0.65
+              ],
+              "color": "#493B2E"
+            },
+            {
+              "shape": "box",
+              "position": [
+                1.05,
+                0.24,
+                -0.28
+              ],
+              "size": [
+                0.07,
+                0.48,
+                0.07
+              ],
+              "color": "#493B2E"
+            },
+            {
+              "shape": "box",
+              "position": [
+                1.55,
+                0.24,
+                -0.28
+              ],
+              "size": [
+                0.07,
+                0.48,
+                0.07
+              ],
+              "color": "#493B2E"
+            },
+            {
+              "shape": "box",
+              "position": [
+                1.05,
+                0.24,
+                -0.82
+              ],
+              "size": [
+                0.07,
+                0.48,
+                0.07
+              ],
+              "color": "#493B2E"
+            },
+            {
+              "shape": "box",
+              "position": [
+                1.55,
+                0.24,
+                -0.82
+              ],
+              "size": [
+                0.07,
+                0.48,
+                0.07
+              ],
+              "color": "#493B2E"
+            },
+            {
+              "shape": "box",
+              "position": [
+                1.3,
+                0.48,
+                1.6
+              ],
+              "size": [
+                0.65,
+                0.12,
+                0.64
+              ],
+              "color": "#493B2E"
+            },
+            {
+              "shape": "box",
+              "position": [
+                1.6,
+                0.94,
+                1.6
+              ],
+              "size": [
+                0.1,
+                0.95,
+                0.65
+              ],
+              "color": "#493B2E"
+            },
+            {
+              "shape": "box",
+              "position": [
+                1.05,
+                0.24,
+                1.87
+              ],
+              "size": [
+                0.07,
+                0.48,
+                0.07
+              ],
+              "color": "#493B2E"
+            },
+            {
+              "shape": "box",
+              "position": [
+                1.55,
+                0.24,
+                1.87
+              ],
+              "size": [
+                0.07,
+                0.48,
+                0.07
+              ],
+              "color": "#493B2E"
+            },
+            {
+              "shape": "box",
+              "position": [
+                1.05,
+                0.24,
+                1.33
+              ],
+              "size": [
+                0.07,
+                0.48,
+                0.07
+              ],
+              "color": "#493B2E"
+            },
+            {
+              "shape": "box",
+              "position": [
+                1.55,
+                0.24,
+                1.33
+              ],
+              "size": [
+                0.07,
+                0.48,
+                0.07
+              ],
+              "color": "#493B2E"
+            },
+            {
+              "shape": "box",
+              "position": [
+                1.3,
+                0.48,
+                -1.8
+              ],
+              "size": [
+                0.65,
+                0.12,
+                0.64
+              ],
+              "color": "#493B2E"
+            },
+            {
+              "shape": "box",
+              "position": [
+                1.6,
+                0.94,
+                -1.8
+              ],
+              "size": [
+                0.1,
+                0.95,
+                0.65
+              ],
+              "color": "#493B2E"
+            },
+            {
+              "shape": "box",
+              "position": [
+                1.05,
+                0.24,
+                -1.53
+              ],
+              "size": [
+                0.07,
+                0.48,
+                0.07
+              ],
+              "color": "#493B2E"
+            },
+            {
+              "shape": "box",
+              "position": [
+                1.55,
+                0.24,
+                -1.53
+              ],
+              "size": [
+                0.07,
+                0.48,
+                0.07
+              ],
+              "color": "#493B2E"
+            },
+            {
+              "shape": "box",
+              "position": [
+                1.05,
+                0.24,
+                -2.07
+              ],
+              "size": [
+                0.07,
+                0.48,
+                0.07
+              ],
+              "color": "#493B2E"
+            },
+            {
+              "shape": "box",
+              "position": [
+                1.55,
+                0.24,
+                -2.07
+              ],
+              "size": [
+                0.07,
+                0.48,
+                0.07
+              ],
+              "color": "#493B2E"
+            }
+          ]
+        },
+        {
+          "key": "ledgers",
+          "label": "Closed ledgers",
+          "blocks": [
+            {
+              "shape": "box",
+              "position": [
+                0.48,
+                1.055,
+                1.8
+              ],
+              "size": [
+                0.4,
+                0.065,
+                0.53
+              ],
+              "color": "#4C3D2B"
+            },
+            {
+              "shape": "box",
+              "position": [
+                0.47,
+                1.095,
+                1.8
+              ],
+              "size": [
+                0.36,
+                0.012,
+                0.48
+              ],
+              "color": "#B7AD8A"
+            },
+            {
+              "shape": "box",
+              "position": [
+                0.48,
+                1.055,
+                -1.7
+              ],
+              "size": [
+                0.4,
+                0.065,
+                0.53
+              ],
+              "color": "#4C3D2B"
+            },
+            {
+              "shape": "box",
+              "position": [
+                0.47,
+                1.095,
+                -1.7
+              ],
+              "size": [
+                0.36,
+                0.012,
+                0.48
+              ],
+              "color": "#B7AD8A"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "castStandIns": [
+    {
+      "castMemberId": "cast_sb5y4gjk",
+      "name": "Urban",
+      "version": 1,
+      "standIn": {
+        "height": 1.86,
+        "color": "#DCA637",
+        "details": [
+          "beard",
+          "apron"
+        ]
+      }
+    },
+    {
+      "castMemberId": "cast_p7y36x5t",
+      "name": "Loukas Notaras",
+      "version": 1,
+      "standIn": {
+        "height": 1.76,
+        "color": "#A35A4B",
+        "details": [
+          "goatee"
+        ]
+      }
+    },
+    {
+      "castMemberId": "cast_pccfdknw",
+      "name": "Constantine XI Palaiologos",
+      "version": 1,
+      "standIn": {
+        "height": 1.8,
+        "color": "#8572BA",
+        "details": [
+          "beard",
+          "crown"
+        ]
+      }
+    }
+  ],
+  "propStandIns": [],
+  "assetFiles": [
+    {
+      "assetFileId": "asset_file_qfjd9fte",
+      "mediaKind": "image",
+      "projectRelativePath": "scenes/02/03-shot-plan/bombard-drawing.png",
+      "mimeType": "image/png"
+    },
+    {
+      "assetFileId": "asset_file_tj2c5gmn",
+      "mediaKind": "audio",
+      "projectRelativePath": "scenes/02/02-shot-plan/dialogues/turns-02-05-g9j5.mp3",
+      "mimeType": "audio/mpeg"
+    }
+  ]
+}

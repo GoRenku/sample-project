@@ -1,0 +1,148 @@
+{
+  "frameRate": {
+    "numerator": 24,
+    "denominator": 1
+  },
+  "frameCount": 720,
+  "segments": [
+    {
+      "id": "master-opening",
+      "startFrame": 0,
+      "label": "Symmetrical master — unroll and present"
+    },
+    {
+      "id": "gun-insert",
+      "startFrame": 100,
+      "label": "Cannon drawing — It changes the mind"
+    },
+    {
+      "id": "loukas-close",
+      "startFrame": 172,
+      "label": "Loukas — the treasurer"
+    },
+    {
+      "id": "emperor-close",
+      "startFrame": 254,
+      "label": "Constantine close-up — What would you require?"
+    },
+    {
+      "id": "urban-list-close",
+      "startFrame": 310,
+      "label": "Urban close-up — Bronze through Oxen"
+    },
+    {
+      "id": "master-return",
+      "startFrame": 466,
+      "label": "Return to master — A foundry that… and whisper"
+    }
+  ],
+  "subjects": [
+    {
+      "key": "urban",
+      "label": "Urban",
+      "color": "#DCA637"
+    },
+    {
+      "key": "loukas-notaras",
+      "label": "Loukas Notaras",
+      "color": "#A35A4B"
+    },
+    {
+      "key": "constantine-xi-palaiologos",
+      "label": "Constantine XI Palaiologos",
+      "color": "#8572BA"
+    }
+  ],
+  "cues": [
+    {
+      "id": "unroll",
+      "startFrame": 6,
+      "text": "Urban stands upright and unrolls the cannon drawing across the table.",
+      "kind": "action",
+      "subject": "urban"
+    },
+    {
+      "id": "lean-point",
+      "startFrame": 48,
+      "text": "Urban begins speaking, leans over the table and points at the cannon drawing.",
+      "kind": "action",
+      "subject": "urban"
+    },
+    {
+      "id": "urban-gun",
+      "startFrame": 48,
+      "text": "A gun this size does not defend a wall. It changes the mind of the man approaching it.",
+      "kind": "dialogue",
+      "speaker": "urban",
+      "endFrame": 155,
+      "audio": {
+        "assetFileId": "asset_file_tj2c5gmn",
+        "offsetSeconds": 0.33333333333333326
+      }
+    },
+    {
+      "id": "braced",
+      "startFrame": 79,
+      "text": "Urban settles with his left hand braced on the table and right hand indicating the drawing.",
+      "kind": "action",
+      "subject": "urban"
+    },
+    {
+      "id": "loukas-treasurer",
+      "startFrame": 172,
+      "text": "It changes the mind of the treasurer first.",
+      "kind": "dialogue",
+      "speaker": "loukas-notaras",
+      "endFrame": 254,
+      "audio": {
+        "assetFileId": "asset_file_tj2c5gmn",
+        "offsetSeconds": 5.5
+      }
+    },
+    {
+      "id": "emperor-attention",
+      "startFrame": 254,
+      "text": "Constantine meets Urban’s gaze, then visibly asks his question in close-up.",
+      "kind": "action",
+      "subject": "constantine-xi-palaiologos"
+    },
+    {
+      "id": "emperor-require",
+      "startFrame": 273,
+      "text": "What would you require?",
+      "kind": "dialogue",
+      "speaker": "constantine-xi-palaiologos",
+      "endFrame": 299,
+      "audio": {
+        "assetFileId": "asset_file_tj2c5gmn",
+        "offsetSeconds": 9.708333333333334
+      }
+    },
+    {
+      "id": "urban-requirements",
+      "startFrame": 310,
+      "text": "Bronze. Powder. Charcoal. Masons. Carpenters. Oxen. A foundry that can breathe without collapsing. And pay enough that my men do not sell the design before the mold dries.",
+      "kind": "dialogue",
+      "speaker": "urban",
+      "endFrame": 638,
+      "audio": {
+        "assetFileId": "asset_file_tj2c5gmn",
+        "offsetSeconds": 11.25
+      }
+    },
+    {
+      "id": "whisper",
+      "startFrame": 576,
+      "text": "Loukas leans toward the emperor’s near ear to whisper inaudibly.",
+      "kind": "action",
+      "subject": "loukas-notaras"
+    },
+    {
+      "id": "whisper-arrival",
+      "startFrame": 612,
+      "text": "Loukas reaches the emperor’s ear and holds the private whisper through the end.",
+      "kind": "action",
+      "subject": "loukas-notaras"
+    }
+  ]
+}

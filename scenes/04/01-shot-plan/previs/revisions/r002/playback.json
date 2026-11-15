@@ -1,0 +1,196 @@
+{
+  "frameRate": {
+    "numerator": 24,
+    "denominator": 1
+  },
+  "frameCount": 1008,
+  "segments": [
+    {
+      "id": "cut-1",
+      "startFrame": 0,
+      "label": "The workroom"
+    },
+    {
+      "id": "cut-2",
+      "startFrame": 85,
+      "label": "The target"
+    },
+    {
+      "id": "cut-3",
+      "startFrame": 169,
+      "label": "One stone at a time"
+    },
+    {
+      "id": "cut-4",
+      "startFrame": 359,
+      "label": "A weapon against time"
+    },
+    {
+      "id": "cut-5",
+      "startFrame": 521,
+      "label": "The chest opens"
+    },
+    {
+      "id": "cut-6",
+      "startFrame": 586,
+      "label": "Four times the price"
+    },
+    {
+      "id": "cut-7",
+      "startFrame": 722,
+      "label": "And the bronze?"
+    },
+    {
+      "id": "cut-8",
+      "startFrame": 798,
+      "label": "Bells into thunder"
+    },
+    {
+      "id": "cut-9",
+      "startFrame": 919,
+      "label": "Mara sees the answer"
+    }
+  ],
+  "subjects": [
+    {
+      "key": "mehmed-ii",
+      "label": "Mehmed II",
+      "color": "#8E4C60"
+    },
+    {
+      "key": "urban",
+      "label": "Urban",
+      "color": "#DCA637"
+    },
+    {
+      "key": "mara",
+      "label": "Mara",
+      "color": "#E86F62"
+    },
+    {
+      "key": "scribe",
+      "label": "Scribe",
+      "color": "#87938D"
+    }
+  ],
+  "cues": [
+    {
+      "id": "mehmed-start",
+      "startFrame": 0,
+      "text": "Mehmed studies the drawing as he begins his circuit.",
+      "kind": "action",
+      "subject": "mehmed-ii"
+    },
+    {
+      "id": "mehmed-across",
+      "startFrame": 84,
+      "text": "Mehmed stops opposite Urban and names the target.",
+      "kind": "action",
+      "subject": "mehmed-ii"
+    },
+    {
+      "id": "line-1",
+      "startFrame": 92,
+      "text": "Can it break the walls of Constantinople?",
+      "kind": "dialogue",
+      "speaker": "mehmed-ii",
+      "endFrame": 160
+    },
+    {
+      "id": "line-2",
+      "startFrame": 175,
+      "text": "No cannon breaks a wall by itself. It breaks one stone. Then another. Then the sleep of the men repairing them.",
+      "kind": "dialogue",
+      "speaker": "urban",
+      "endFrame": 353
+    },
+    {
+      "id": "urban-explains",
+      "startFrame": 180,
+      "text": "Urban starts indicating successive points on the plan.",
+      "kind": "action",
+      "subject": "urban"
+    },
+    {
+      "id": "mehmed-understands",
+      "startFrame": 362,
+      "text": "Mehmed lifts his gaze as he understands the weapon's purpose.",
+      "kind": "action",
+      "subject": "mehmed-ii"
+    },
+    {
+      "id": "line-3",
+      "startFrame": 373,
+      "text": "So it is a weapon against time.",
+      "kind": "dialogue",
+      "speaker": "mehmed-ii",
+      "endFrame": 428
+    },
+    {
+      "id": "line-4",
+      "startFrame": 443,
+      "text": "Against time, pride, and mortar.",
+      "kind": "dialogue",
+      "speaker": "urban",
+      "endFrame": 497
+    },
+    {
+      "id": "mehmed-signal-onset",
+      "startFrame": 506,
+      "text": "Mehmed gives the scribe a small signal.",
+      "kind": "action",
+      "subject": "mehmed-ii"
+    },
+    {
+      "id": "scribe-open-onset",
+      "startFrame": 526,
+      "text": "The scribe opens the chest and exposes the coins.",
+      "kind": "action",
+      "subject": "scribe"
+    },
+    {
+      "id": "line-5",
+      "startFrame": 596,
+      "text": "You asked the Romans for a price. I will pay four.",
+      "kind": "dialogue",
+      "speaker": "mehmed-ii",
+      "endFrame": 695
+    },
+    {
+      "id": "line-6",
+      "startFrame": 734,
+      "text": "And the bronze?",
+      "kind": "dialogue",
+      "speaker": "urban",
+      "endFrame": 767
+    },
+    {
+      "id": "line-7",
+      "startFrame": 806,
+      "text": "My empire has bells enough to become thunder.",
+      "kind": "dialogue",
+      "speaker": "mehmed-ii",
+      "endFrame": 901
+    },
+    {
+      "id": "mara-watches",
+      "startFrame": 919,
+      "text": "Mara watches Urban's face for his answer.",
+      "kind": "action",
+      "subject": "mara"
+    },
+    {
+      "id": "reaction-push-start",
+      "startFrame": 919,
+      "text": "Ease toward Urban while keeping Mara behind him.",
+      "kind": "camera"
+    },
+    {
+      "id": "urban-answer-onset",
+      "startFrame": 938,
+      "text": "Urban drops his gaze to the plan. His answer is visible before he speaks.",
+      "kind": "action",
+      "subject": "urban"
+    }
+  ]
+}

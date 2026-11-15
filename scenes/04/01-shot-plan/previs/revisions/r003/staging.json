@@ -1,0 +1,1924 @@
+{
+  "version": 14,
+  "staging": {
+    "frameRate": {
+      "numerator": 24,
+      "denominator": 1
+    },
+    "frameCount": 1008,
+    "output": {
+      "width": 1280,
+      "height": 720
+    },
+    "locationId": "location_hhb6pgw8",
+    "cast": [
+      {
+        "castMemberId": "cast_cwdyy6ec",
+        "marks": [
+          {
+            "id": "mehmed-start",
+            "frame": 0,
+            "position": [
+              0.3,
+              -2.55
+            ],
+            "body": "stand",
+            "lookAt": {
+              "kind": "dressing",
+              "key": "bombard-drawing"
+            },
+            "turnTo": {
+              "kind": "dressing",
+              "key": "bombard-drawing"
+            },
+            "cue": "Mehmed studies the drawing as he begins his circuit."
+          },
+          {
+            "id": "mehmed-round-corner",
+            "frame": 34,
+            "position": [
+              -1.28,
+              -2.34
+            ],
+            "lookAt": {
+              "kind": "dressing",
+              "key": "bombard-drawing"
+            }
+          },
+          {
+            "id": "mehmed-across",
+            "frame": 84,
+            "position": [
+              -1.32,
+              -0.18
+            ],
+            "turnTo": {
+              "kind": "cast",
+              "castMemberId": "cast_sb5y4gjk"
+            },
+            "lookAt": {
+              "kind": "cast",
+              "castMemberId": "cast_sb5y4gjk"
+            },
+            "blendFrames": 11,
+            "cue": "Mehmed stops opposite Urban and names the target."
+          },
+          {
+            "id": "mehmed-study",
+            "frame": 187,
+            "lookAt": {
+              "kind": "dressing",
+              "key": "bombard-drawing"
+            }
+          },
+          {
+            "id": "mehmed-understands",
+            "frame": 362,
+            "lookAt": {
+              "kind": "cast",
+              "castMemberId": "cast_sb5y4gjk"
+            },
+            "cue": "Mehmed lifts his gaze as he understands the weapon's purpose."
+          },
+          {
+            "id": "mehmed-signal-onset",
+            "frame": 506,
+            "cue": "Mehmed gives the scribe a small signal."
+          },
+          {
+            "id": "mehmed-signal",
+            "frame": 516,
+            "lookAt": {
+              "kind": "extra",
+              "key": "scribe"
+            },
+            "arms": "gesture",
+            "blendFrames": 9
+          },
+          {
+            "id": "mehmed-offer",
+            "frame": 581,
+            "arms": "rest",
+            "lookAt": {
+              "kind": "cast",
+              "castMemberId": "cast_sb5y4gjk"
+            }
+          },
+          {
+            "id": "mehmed-thunder",
+            "frame": 840,
+            "arms": "gesture",
+            "blendFrames": 15
+          },
+          {
+            "id": "mehmed-still",
+            "frame": 922,
+            "arms": "rest"
+          }
+        ]
+      },
+      {
+        "castMemberId": "cast_sb5y4gjk",
+        "marks": [
+          {
+            "id": "urban-start",
+            "frame": 0,
+            "position": [
+              1.28,
+              0.06
+            ],
+            "body": "stand",
+            "turnTo": {
+              "kind": "dressing",
+              "key": "bombard-drawing"
+            },
+            "lookAt": {
+              "kind": "dressing",
+              "key": "bombard-drawing"
+            }
+          },
+          {
+            "id": "urban-eyes-up",
+            "frame": 91,
+            "lookAt": {
+              "kind": "cast",
+              "castMemberId": "cast_cwdyy6ec"
+            }
+          },
+          {
+            "id": "urban-explains",
+            "frame": 180,
+            "lookAt": {
+              "kind": "dressing",
+              "key": "bombard-drawing"
+            },
+            "torso": "lean",
+            "arms": "point",
+            "blendFrames": 12,
+            "cue": "Urban starts indicating successive points on the plan."
+          },
+          {
+            "id": "urban-first-stone",
+            "frame": 242,
+            "arms": "reach",
+            "blendFrames": 6
+          },
+          {
+            "id": "urban-next-stone",
+            "frame": 276,
+            "arms": "point",
+            "blendFrames": 7
+          },
+          {
+            "id": "urban-repair-crews",
+            "frame": 314,
+            "arms": "rest",
+            "torso": "upright",
+            "lookAt": {
+              "kind": "cast",
+              "castMemberId": "cast_cwdyy6ec"
+            },
+            "blendFrames": 12
+          },
+          {
+            "id": "urban-shared-terms",
+            "frame": 434,
+            "turnTo": {
+              "kind": "cast",
+              "castMemberId": "cast_cwdyy6ec"
+            },
+            "lookAt": {
+              "kind": "cast",
+              "castMemberId": "cast_cwdyy6ec"
+            }
+          },
+          {
+            "id": "urban-coin-glance",
+            "frame": 566,
+            "lookAt": {
+              "kind": "dressing",
+              "key": "coin-chest"
+            }
+          },
+          {
+            "id": "urban-bronze-glance",
+            "frame": 710,
+            "lookAt": {
+              "kind": "dressing",
+              "key": "bombard-drawing"
+            }
+          },
+          {
+            "id": "urban-bronze",
+            "frame": 746,
+            "lookAt": {
+              "kind": "cast",
+              "castMemberId": "cast_cwdyy6ec"
+            }
+          },
+          {
+            "id": "urban-answer-onset",
+            "frame": 938,
+            "cue": "Urban drops his gaze to the plan. His answer is visible before he speaks."
+          },
+          {
+            "id": "urban-answer",
+            "frame": 954,
+            "lookAt": {
+              "kind": "dressing",
+              "key": "bombard-drawing"
+            },
+            "blendFrames": 15
+          }
+        ]
+      },
+      {
+        "castMemberId": "cast_e786pp6u",
+        "marks": [
+          {
+            "id": "mara-start",
+            "frame": 0,
+            "position": [
+              2.25,
+              -1.42
+            ],
+            "body": "stand",
+            "turnTo": {
+              "kind": "dressing",
+              "key": "bombard-drawing"
+            },
+            "lookAt": {
+              "kind": "dressing",
+              "key": "bombard-drawing"
+            }
+          },
+          {
+            "id": "mara-chest",
+            "frame": 547,
+            "lookAt": {
+              "kind": "dressing",
+              "key": "coin-chest"
+            }
+          },
+          {
+            "id": "mara-watches",
+            "frame": 919,
+            "turnTo": {
+              "kind": "cast",
+              "castMemberId": "cast_sb5y4gjk"
+            },
+            "lookAt": {
+              "kind": "cast",
+              "castMemberId": "cast_sb5y4gjk"
+            },
+            "blendFrames": 15,
+            "cue": "Mara watches Urban's face for his answer."
+          }
+        ]
+      }
+    ],
+    "extras": [
+      {
+        "key": "scribe",
+        "label": "Scribe",
+        "standIn": {
+          "height": 1.7,
+          "color": "#87938D",
+          "details": []
+        },
+        "marks": [
+          {
+            "id": "scribe-start",
+            "frame": 0,
+            "position": [
+              -2.07,
+              1.82
+            ],
+            "body": "stand",
+            "turnTo": {
+              "kind": "dressing",
+              "key": "coin-chest"
+            },
+            "lookAt": {
+              "kind": "dressing",
+              "key": "coin-chest"
+            }
+          },
+          {
+            "id": "scribe-open-onset",
+            "frame": 526,
+            "cue": "The scribe opens the chest and exposes the coins."
+          },
+          {
+            "id": "scribe-opens",
+            "frame": 540,
+            "torso": "lean",
+            "arms": "reach",
+            "blendFrames": 14
+          },
+          {
+            "id": "scribe-recedes",
+            "frame": 583,
+            "torso": "upright",
+            "arms": "rest",
+            "blendFrames": 16
+          }
+        ]
+      }
+    ],
+    "props": [],
+    "dressing": [
+      {
+        "key": "bombard-drawing",
+        "label": "Bombard drawing",
+        "blocks": [
+          {
+            "shape": "box",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              1.3,
+              0.018,
+              1.4
+            ],
+            "color": "#D5B788"
+          },
+          {
+            "shape": "box",
+            "position": [
+              0,
+              0.013,
+              -0.15
+            ],
+            "size": [
+              0.13,
+              0.008,
+              0.81
+            ],
+            "color": "#725443"
+          },
+          {
+            "shape": "box",
+            "position": [
+              -0.105,
+              0.015,
+              -0.15
+            ],
+            "size": [
+              0.018,
+              0.008,
+              0.86
+            ],
+            "color": "#725443"
+          },
+          {
+            "shape": "box",
+            "position": [
+              0.105,
+              0.015,
+              -0.15
+            ],
+            "size": [
+              0.018,
+              0.008,
+              0.86
+            ],
+            "color": "#725443"
+          },
+          {
+            "shape": "box",
+            "position": [
+              0,
+              0.016,
+              -0.55
+            ],
+            "size": [
+              0.31,
+              0.008,
+              0.025
+            ],
+            "color": "#725443"
+          },
+          {
+            "shape": "box",
+            "position": [
+              0,
+              0.016,
+              -0.36
+            ],
+            "size": [
+              0.31,
+              0.008,
+              0.025
+            ],
+            "color": "#725443"
+          },
+          {
+            "shape": "box",
+            "position": [
+              0,
+              0.016,
+              0.15
+            ],
+            "size": [
+              0.31,
+              0.008,
+              0.025
+            ],
+            "color": "#725443"
+          },
+          {
+            "shape": "box",
+            "position": [
+              0,
+              0.016,
+              0.25
+            ],
+            "size": [
+              0.31,
+              0.008,
+              0.025
+            ],
+            "color": "#725443"
+          },
+          {
+            "shape": "box",
+            "position": [
+              0.38,
+              0.013,
+              -0.35
+            ],
+            "size": [
+              0.23,
+              0.008,
+              0.013
+            ],
+            "color": "#86694E"
+          },
+          {
+            "shape": "box",
+            "position": [
+              0.38,
+              0.013,
+              -0.21
+            ],
+            "size": [
+              0.23,
+              0.008,
+              0.013
+            ],
+            "color": "#86694E"
+          },
+          {
+            "shape": "box",
+            "position": [
+              0.38,
+              0.013,
+              -0.07
+            ],
+            "size": [
+              0.23,
+              0.008,
+              0.013
+            ],
+            "color": "#86694E"
+          },
+          {
+            "shape": "box",
+            "position": [
+              0.38,
+              0.013,
+              0.07
+            ],
+            "size": [
+              0.23,
+              0.008,
+              0.013
+            ],
+            "color": "#86694E"
+          },
+          {
+            "shape": "box",
+            "position": [
+              0.38,
+              0.013,
+              0.21
+            ],
+            "size": [
+              0.23,
+              0.008,
+              0.013
+            ],
+            "color": "#86694E"
+          },
+          {
+            "shape": "box",
+            "position": [
+              0.38,
+              0.013,
+              0.35
+            ],
+            "size": [
+              0.23,
+              0.008,
+              0.013
+            ],
+            "color": "#86694E"
+          }
+        ],
+        "marks": [
+          {
+            "id": "bombard-drawing-place",
+            "frame": 0,
+            "position": [
+              0.01,
+              1.022,
+              0.18
+            ]
+          }
+        ]
+      },
+      {
+        "key": "chest-stand",
+        "label": "Low chest stand",
+        "blocks": [
+          {
+            "shape": "box",
+            "position": [
+              0,
+              0.47,
+              0
+            ],
+            "size": [
+              0.9,
+              0.14,
+              0.72
+            ],
+            "color": "#594032"
+          },
+          {
+            "shape": "box",
+            "position": [
+              -0.37,
+              0.235,
+              -0.28
+            ],
+            "size": [
+              0.09,
+              0.47,
+              0.09
+            ],
+            "color": "#352B28"
+          },
+          {
+            "shape": "box",
+            "position": [
+              -0.37,
+              0.235,
+              0.28
+            ],
+            "size": [
+              0.09,
+              0.47,
+              0.09
+            ],
+            "color": "#352B28"
+          },
+          {
+            "shape": "box",
+            "position": [
+              0.37,
+              0.235,
+              -0.28
+            ],
+            "size": [
+              0.09,
+              0.47,
+              0.09
+            ],
+            "color": "#352B28"
+          },
+          {
+            "shape": "box",
+            "position": [
+              0.37,
+              0.235,
+              0.28
+            ],
+            "size": [
+              0.09,
+              0.47,
+              0.09
+            ],
+            "color": "#352B28"
+          }
+        ],
+        "marks": [
+          {
+            "id": "chest-stand-place",
+            "frame": 0,
+            "position": [
+              -1.63,
+              0,
+              1.27
+            ]
+          }
+        ]
+      },
+      {
+        "key": "coin-chest",
+        "label": "Coin chest",
+        "blocks": [
+          {
+            "shape": "box",
+            "position": [
+              0,
+              0.065,
+              0
+            ],
+            "size": [
+              0.67,
+              0.13,
+              0.47
+            ],
+            "color": "#352B28"
+          },
+          {
+            "shape": "box",
+            "position": [
+              -0.31,
+              0.15,
+              0
+            ],
+            "size": [
+              0.06,
+              0.22,
+              0.47
+            ],
+            "color": "#594032"
+          },
+          {
+            "shape": "box",
+            "position": [
+              0.31,
+              0.15,
+              0
+            ],
+            "size": [
+              0.06,
+              0.22,
+              0.47
+            ],
+            "color": "#594032"
+          },
+          {
+            "shape": "box",
+            "position": [
+              0,
+              0.15,
+              -0.21
+            ],
+            "size": [
+              0.61,
+              0.22,
+              0.055
+            ],
+            "color": "#594032"
+          },
+          {
+            "shape": "box",
+            "position": [
+              0,
+              0.15,
+              0.21
+            ],
+            "size": [
+              0.61,
+              0.22,
+              0.055
+            ],
+            "color": "#594032"
+          },
+          {
+            "shape": "cylinder",
+            "position": [
+              -0.2,
+              0.19,
+              -0.11
+            ],
+            "size": [
+              0.09,
+              0.026,
+              0.09
+            ],
+            "color": "#C69B4C"
+          },
+          {
+            "shape": "cylinder",
+            "position": [
+              -0.12,
+              0.21,
+              -0.04
+            ],
+            "size": [
+              0.09,
+              0.026,
+              0.09
+            ],
+            "color": "#C69B4C"
+          },
+          {
+            "shape": "cylinder",
+            "position": [
+              -0.07,
+              0.18,
+              0.1
+            ],
+            "size": [
+              0.09,
+              0.026,
+              0.09
+            ],
+            "color": "#C69B4C"
+          },
+          {
+            "shape": "cylinder",
+            "position": [
+              0.01,
+              0.22,
+              -0.09
+            ],
+            "size": [
+              0.09,
+              0.026,
+              0.09
+            ],
+            "color": "#C69B4C"
+          },
+          {
+            "shape": "cylinder",
+            "position": [
+              0.07,
+              0.19,
+              0.08
+            ],
+            "size": [
+              0.09,
+              0.026,
+              0.09
+            ],
+            "color": "#C69B4C"
+          },
+          {
+            "shape": "cylinder",
+            "position": [
+              0.14,
+              0.23,
+              0.02
+            ],
+            "size": [
+              0.09,
+              0.026,
+              0.09
+            ],
+            "color": "#C69B4C"
+          },
+          {
+            "shape": "cylinder",
+            "position": [
+              0.22,
+              0.18,
+              -0.12
+            ],
+            "size": [
+              0.09,
+              0.026,
+              0.09
+            ],
+            "color": "#C69B4C"
+          },
+          {
+            "shape": "cylinder",
+            "position": [
+              0.21,
+              0.22,
+              0.12
+            ],
+            "size": [
+              0.09,
+              0.026,
+              0.09
+            ],
+            "color": "#C69B4C"
+          },
+          {
+            "shape": "cylinder",
+            "position": [
+              -0.21,
+              0.2,
+              0.08
+            ],
+            "size": [
+              0.09,
+              0.026,
+              0.09
+            ],
+            "color": "#C69B4C"
+          },
+          {
+            "shape": "cylinder",
+            "position": [
+              0,
+              0.2,
+              0
+            ],
+            "size": [
+              0.09,
+              0.026,
+              0.09
+            ],
+            "color": "#C69B4C"
+          }
+        ],
+        "marks": [
+          {
+            "id": "coin-chest-place",
+            "frame": 0,
+            "position": [
+              -1.63,
+              0.54,
+              1.27
+            ]
+          }
+        ]
+      },
+      {
+        "key": "chest-lid",
+        "label": "Chest lid",
+        "blocks": [
+          {
+            "shape": "box",
+            "position": [
+              0,
+              0,
+              0
+            ],
+            "size": [
+              0.68,
+              0.055,
+              0.47
+            ],
+            "color": "#594032"
+          },
+          {
+            "shape": "box",
+            "position": [
+              0,
+              0.03,
+              0.14
+            ],
+            "size": [
+              0.57,
+              0.02,
+              0.029
+            ],
+            "color": "#C69B4C"
+          }
+        ],
+        "marks": [
+          {
+            "id": "chest-lid-place",
+            "frame": 0,
+            "position": [
+              -1.63,
+              0.83,
+              1.27
+            ]
+          },
+          {
+            "id": "lid-hold",
+            "frame": 526,
+            "position": [
+              -1.63,
+              0.83,
+              1.27
+            ]
+          },
+          {
+            "id": "lid-reveal",
+            "frame": 546,
+            "position": [
+              -1.63,
+              0.8,
+              0.85
+            ]
+          }
+        ]
+      },
+      {
+        "key": "north-lamp",
+        "label": "Far oil lamp",
+        "blocks": [
+          {
+            "shape": "cylinder",
+            "position": [
+              0,
+              0.04,
+              0
+            ],
+            "size": [
+              0.17,
+              0.085,
+              0.17
+            ],
+            "color": "#C69B4C"
+          },
+          {
+            "shape": "sphere",
+            "position": [
+              0,
+              0.11,
+              0
+            ],
+            "size": [
+              0.035,
+              0.115,
+              0.035
+            ],
+            "color": "#FFD77D"
+          }
+        ],
+        "marks": [
+          {
+            "id": "north-lamp-place",
+            "frame": 0,
+            "position": [
+              0.35,
+              1.01,
+              -1.22
+            ]
+          }
+        ]
+      },
+      {
+        "key": "south-lamp",
+        "label": "Near oil lamp",
+        "blocks": [
+          {
+            "shape": "cylinder",
+            "position": [
+              0,
+              0.04,
+              0
+            ],
+            "size": [
+              0.17,
+              0.085,
+              0.17
+            ],
+            "color": "#C69B4C"
+          },
+          {
+            "shape": "sphere",
+            "position": [
+              0,
+              0.11,
+              0
+            ],
+            "size": [
+              0.035,
+              0.115,
+              0.035
+            ],
+            "color": "#FFD77D"
+          }
+        ],
+        "marks": [
+          {
+            "id": "south-lamp-place",
+            "frame": 0,
+            "position": [
+              -0.35,
+              1.01,
+              1.12
+            ]
+          }
+        ]
+      },
+      {
+        "key": "chest-lamp",
+        "label": "Chest-side lamp",
+        "blocks": [
+          {
+            "shape": "cylinder",
+            "position": [
+              0,
+              0.04,
+              0
+            ],
+            "size": [
+              0.17,
+              0.085,
+              0.17
+            ],
+            "color": "#C69B4C"
+          },
+          {
+            "shape": "sphere",
+            "position": [
+              0,
+              0.11,
+              0
+            ],
+            "size": [
+              0.035,
+              0.115,
+              0.035
+            ],
+            "color": "#FFD77D"
+          }
+        ],
+        "marks": [
+          {
+            "id": "chest-lamp-place",
+            "frame": 0,
+            "position": [
+              -0.67,
+              1.01,
+              0.68
+            ]
+          }
+        ]
+      }
+    ],
+    "cameras": [
+      {
+        "key": "workroom-wide",
+        "label": "Workroom master",
+        "lens": 25,
+        "placement": {
+          "kind": "fixed",
+          "position": [
+            0.25,
+            2.12,
+            4.16
+          ],
+          "aim": [
+            0,
+            1.08,
+            -0.58
+          ]
+        },
+        "marks": []
+      },
+      {
+        "key": "mehmed-single",
+        "label": "Mehmed across the plan",
+        "lens": 52,
+        "placement": {
+          "kind": "fixed",
+          "position": [
+            0.46,
+            1.55,
+            1.47
+          ],
+          "aim": [
+            -1.32,
+            1.46,
+            -0.18
+          ]
+        },
+        "marks": []
+      },
+      {
+        "key": "urban-single",
+        "label": "Urban across the plan",
+        "lens": 52,
+        "placement": {
+          "kind": "fixed",
+          "position": [
+            -0.49,
+            1.55,
+            1.43
+          ],
+          "aim": [
+            1.28,
+            1.46,
+            0.06
+          ]
+        },
+        "marks": []
+      },
+      {
+        "key": "shared-frame",
+        "label": "The two men and the drawing",
+        "lens": 153,
+        "placement": {
+          "kind": "fixed",
+          "position": [
+            0.08,
+            2.25,
+            2.96
+          ],
+          "aim": [
+            0.189,
+            1.812,
+            -0.15
+          ]
+        },
+        "marks": [],
+        "fullLength": true
+      },
+      {
+        "key": "chest-insert",
+        "label": "Chest and parchment",
+        "lens": 38,
+        "placement": {
+          "kind": "fixed",
+          "position": [
+            0.29,
+            1.89,
+            2.46
+          ],
+          "aim": [
+            -1.07,
+            0.94,
+            0.85
+          ]
+        },
+        "marks": []
+      },
+      {
+        "key": "mara-reaction",
+        "label": "Urban with Mara behind him",
+        "lens": 39,
+        "placement": {
+          "kind": "fixed",
+          "position": [
+            0.95,
+            1.58,
+            2.45
+          ],
+          "aim": [
+            1.57,
+            1.46,
+            -0.48
+          ]
+        },
+        "marks": [
+          {
+            "id": "reaction-push-start",
+            "frame": 919,
+            "position": [
+              0.95,
+              1.58,
+              2.45
+            ],
+            "aim": [
+              1.57,
+              1.46,
+              -0.48
+            ],
+            "lens": 39,
+            "cue": "Ease toward Urban while keeping Mara behind him."
+          },
+          {
+            "id": "reaction-push-end",
+            "frame": 1007,
+            "position": [
+              1.15,
+              1.58,
+              2.04
+            ],
+            "aim": [
+              1.54,
+              1.47,
+              -0.48
+            ],
+            "lens": 39
+          }
+        ]
+      },
+      {
+        "key": "urban-explains",
+        "label": "Urban and the drawing",
+        "lens": 35,
+        "placement": {
+          "kind": "fixed",
+          "position": [
+            -1,
+            1.94,
+            1.55
+          ],
+          "aim": [
+            0.72,
+            1.28,
+            0.03
+          ]
+        },
+        "marks": []
+      }
+    ],
+    "cuts": [
+      {
+        "id": "cut-1",
+        "frame": 0,
+        "camera": "workroom-wide",
+        "label": "The workroom"
+      },
+      {
+        "id": "cut-2",
+        "frame": 85,
+        "camera": "mehmed-single",
+        "label": "The target"
+      },
+      {
+        "id": "cut-3",
+        "frame": 169,
+        "camera": "urban-explains",
+        "label": "One stone at a time"
+      },
+      {
+        "id": "cut-4",
+        "frame": 359,
+        "camera": "shared-frame",
+        "label": "A weapon against time"
+      },
+      {
+        "id": "cut-5",
+        "frame": 521,
+        "camera": "chest-insert",
+        "label": "The chest opens"
+      },
+      {
+        "id": "cut-6",
+        "frame": 586,
+        "camera": "mehmed-single",
+        "label": "Four times the price"
+      },
+      {
+        "id": "cut-7",
+        "frame": 722,
+        "camera": "urban-single",
+        "label": "And the bronze?"
+      },
+      {
+        "id": "cut-8",
+        "frame": 798,
+        "camera": "mehmed-single",
+        "label": "Bells into thunder"
+      },
+      {
+        "id": "cut-9",
+        "frame": 919,
+        "camera": "mara-reaction",
+        "label": "Mara sees the answer"
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "line-1",
+        "speaker": {
+          "kind": "cast",
+          "castMemberId": "cast_cwdyy6ec"
+        },
+        "startFrame": 92,
+        "endFrame": 160,
+        "text": "Can it break the walls of Constantinople?"
+      },
+      {
+        "id": "line-2",
+        "speaker": {
+          "kind": "cast",
+          "castMemberId": "cast_sb5y4gjk"
+        },
+        "startFrame": 175,
+        "endFrame": 353,
+        "text": "No cannon breaks a wall by itself. It breaks one stone. Then another. Then the sleep of the men repairing them."
+      },
+      {
+        "id": "line-3",
+        "speaker": {
+          "kind": "cast",
+          "castMemberId": "cast_cwdyy6ec"
+        },
+        "startFrame": 373,
+        "endFrame": 428,
+        "text": "So it is a weapon against time."
+      },
+      {
+        "id": "line-4",
+        "speaker": {
+          "kind": "cast",
+          "castMemberId": "cast_sb5y4gjk"
+        },
+        "startFrame": 443,
+        "endFrame": 497,
+        "text": "Against time, pride, and mortar."
+      },
+      {
+        "id": "line-5",
+        "speaker": {
+          "kind": "cast",
+          "castMemberId": "cast_cwdyy6ec"
+        },
+        "startFrame": 596,
+        "endFrame": 695,
+        "text": "You asked the Romans for a price. I will pay four."
+      },
+      {
+        "id": "line-6",
+        "speaker": {
+          "kind": "cast",
+          "castMemberId": "cast_sb5y4gjk"
+        },
+        "startFrame": 734,
+        "endFrame": 767,
+        "text": "And the bronze?"
+      },
+      {
+        "id": "line-7",
+        "speaker": {
+          "kind": "cast",
+          "castMemberId": "cast_cwdyy6ec"
+        },
+        "startFrame": 806,
+        "endFrame": 901,
+        "text": "My empire has bells enough to become thunder."
+      }
+    ],
+    "description": "## Blocking and edit\n\nIn the Edirne Palace workroom at night, the south-end wide establishes the long lamp-lit table, the bombard drawing and the cool windows on the east wall. Mehmed circles from the far end to the west side. Urban waits opposite and Mara stays back near the windows. At 3.55 seconds, cut across the table to Mehmed as he asks about Constantinople. Reverse at 7.05 seconds as Urban leans toward the drawing and indicates successive points while explaining how the cannon wears down the wall and its repair crews.\n\nAt 14.95 seconds, bring both men and the parchment back into frame for their exchange about time. Mehmed signals the scribe. At 21.7 seconds, cut to the chest and the near edge of the table as the scribe opens the lid, revealing the coins. Return to Mehmed at 24.4 seconds for the offer. Cut to Urban at 30.1 seconds for his question about bronze and back to Mehmed at 33.25 seconds for the answer about bells.\n\nAt 38.3 seconds, frame Urban in the foreground with Mara behind him and ease closer. She holds her gaze on him as his eyes drop to the drawing. Stay on that reaction through the end at 42 seconds.\n\n## Dialogue timing\n\n- **3.83–6.67 s · Mehmed II** — Can it break the walls of Constantinople?\n- **7.29–14.71 s · Urban** — No cannon breaks a wall by itself. It breaks one stone. Then another. Then the sleep of the men repairing them.\n- **15.54–17.83 s · Mehmed II** — So it is a weapon against time.\n- **18.46–20.71 s · Urban** — Against time, pride, and mortar.\n- **24.83–28.96 s · Mehmed II** — You asked the Romans for a price. I will pay four.\n- **30.58–31.96 s · Urban** — And the bronze?\n- **33.58–37.54 s · Mehmed II** — My empire has bells enough to become thunder.",
+    "coverage": [
+      {
+        "id": "coverage-urban-single-212",
+        "camera": "urban-single",
+        "startFrame": 212,
+        "endFrame": 314
+      }
+    ]
+  },
+  "location": {
+    "locationId": "location_hhb6pgw8",
+    "name": "Edirne Palace Workroom",
+    "version": 1,
+    "layout": {
+      "objects": [
+        {
+          "key": "floor",
+          "label": "Stone floor",
+          "blocks": [
+            {
+              "shape": "box",
+              "position": [
+                0,
+                -0.09,
+                0
+              ],
+              "size": [
+                8,
+                0.18,
+                9.5
+              ],
+              "color": "#645B52"
+            }
+          ]
+        },
+        {
+          "key": "north-wall",
+          "label": "North wall",
+          "blocks": [
+            {
+              "shape": "box",
+              "position": [
+                0,
+                1.75,
+                -4.65
+              ],
+              "size": [
+                8,
+                3.5,
+                0.16
+              ],
+              "color": "#77604D"
+            }
+          ]
+        },
+        {
+          "key": "west-wall",
+          "label": "West wall",
+          "blocks": [
+            {
+              "shape": "box",
+              "position": [
+                -3.95,
+                1.75,
+                0
+              ],
+              "size": [
+                0.16,
+                3.5,
+                9.5
+              ],
+              "color": "#77604D"
+            }
+          ]
+        },
+        {
+          "key": "east-wall",
+          "label": "East wall and window bays",
+          "blocks": [
+            {
+              "shape": "box",
+              "position": [
+                3.95,
+                0.49,
+                0
+              ],
+              "size": [
+                0.16,
+                0.98,
+                9.5
+              ],
+              "color": "#594032"
+            },
+            {
+              "shape": "box",
+              "position": [
+                3.95,
+                3.15,
+                0
+              ],
+              "size": [
+                0.16,
+                0.7,
+                9.5
+              ],
+              "color": "#77604D"
+            },
+            {
+              "shape": "box",
+              "position": [
+                3.95,
+                1.91,
+                -3.9
+              ],
+              "size": [
+                0.16,
+                1.86,
+                1.7
+              ],
+              "color": "#77604D"
+            },
+            {
+              "shape": "box",
+              "position": [
+                3.95,
+                1.91,
+                -0.25
+              ],
+              "size": [
+                0.16,
+                1.86,
+                2.7
+              ],
+              "color": "#77604D"
+            },
+            {
+              "shape": "box",
+              "position": [
+                3.95,
+                1.91,
+                3.5
+              ],
+              "size": [
+                0.16,
+                1.86,
+                2.5
+              ],
+              "color": "#77604D"
+            },
+            {
+              "shape": "box",
+              "position": [
+                4.04,
+                1.88,
+                -2.32
+              ],
+              "size": [
+                0.12,
+                1.83,
+                1.45
+              ],
+              "color": "#283B53"
+            },
+            {
+              "shape": "box",
+              "position": [
+                4.04,
+                1.88,
+                1.72
+              ],
+              "size": [
+                0.12,
+                1.83,
+                1.45
+              ],
+              "color": "#283B53"
+            },
+            {
+              "shape": "box",
+              "position": [
+                3.93,
+                1.86,
+                -2.82
+              ],
+              "size": [
+                0.1,
+                1.78,
+                0.055
+              ],
+              "color": "#594032"
+            },
+            {
+              "shape": "box",
+              "position": [
+                3.93,
+                1.86,
+                -2.57
+              ],
+              "size": [
+                0.1,
+                1.78,
+                0.055
+              ],
+              "color": "#594032"
+            },
+            {
+              "shape": "box",
+              "position": [
+                3.93,
+                1.86,
+                -2.32
+              ],
+              "size": [
+                0.1,
+                1.78,
+                0.055
+              ],
+              "color": "#594032"
+            },
+            {
+              "shape": "box",
+              "position": [
+                3.93,
+                1.86,
+                -2.07
+              ],
+              "size": [
+                0.1,
+                1.78,
+                0.055
+              ],
+              "color": "#594032"
+            },
+            {
+              "shape": "box",
+              "position": [
+                3.93,
+                1.86,
+                -1.8199999999999998
+              ],
+              "size": [
+                0.1,
+                1.78,
+                0.055
+              ],
+              "color": "#594032"
+            },
+            {
+              "shape": "box",
+              "position": [
+                3.93,
+                1.86,
+                1.22
+              ],
+              "size": [
+                0.1,
+                1.78,
+                0.055
+              ],
+              "color": "#594032"
+            },
+            {
+              "shape": "box",
+              "position": [
+                3.93,
+                1.86,
+                1.47
+              ],
+              "size": [
+                0.1,
+                1.78,
+                0.055
+              ],
+              "color": "#594032"
+            },
+            {
+              "shape": "box",
+              "position": [
+                3.93,
+                1.86,
+                1.72
+              ],
+              "size": [
+                0.1,
+                1.78,
+                0.055
+              ],
+              "color": "#594032"
+            },
+            {
+              "shape": "box",
+              "position": [
+                3.93,
+                1.86,
+                1.97
+              ],
+              "size": [
+                0.1,
+                1.78,
+                0.055
+              ],
+              "color": "#594032"
+            },
+            {
+              "shape": "box",
+              "position": [
+                3.93,
+                1.86,
+                2.2199999999999998
+              ],
+              "size": [
+                0.1,
+                1.78,
+                0.055
+              ],
+              "color": "#594032"
+            }
+          ]
+        },
+        {
+          "key": "entrance",
+          "label": "South double doors",
+          "blocks": [
+            {
+              "shape": "box",
+              "position": [
+                0,
+                1.23,
+                4.63
+              ],
+              "size": [
+                2.25,
+                2.46,
+                0.16
+              ],
+              "color": "#352B28"
+            },
+            {
+              "shape": "box",
+              "position": [
+                0,
+                3.03,
+                4.63
+              ],
+              "size": [
+                8,
+                0.94,
+                0.16
+              ],
+              "color": "#77604D"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -2.57,
+                1.28,
+                4.63
+              ],
+              "size": [
+                2.86,
+                2.56,
+                0.16
+              ],
+              "color": "#77604D"
+            },
+            {
+              "shape": "box",
+              "position": [
+                2.57,
+                1.28,
+                4.63
+              ],
+              "size": [
+                2.86,
+                2.56,
+                0.16
+              ],
+              "color": "#77604D"
+            }
+          ]
+        },
+        {
+          "key": "divan",
+          "label": "North divan",
+          "blocks": [
+            {
+              "shape": "box",
+              "position": [
+                0,
+                0.32,
+                -4.05
+              ],
+              "size": [
+                5.25,
+                0.53,
+                0.75
+              ],
+              "color": "#594032"
+            },
+            {
+              "shape": "box",
+              "position": [
+                0,
+                0.61,
+                -3.99
+              ],
+              "size": [
+                5.2,
+                0.16,
+                0.66
+              ],
+              "color": "#6A3C3A"
+            },
+            {
+              "shape": "box",
+              "position": [
+                0,
+                0.87,
+                -4.29
+              ],
+              "size": [
+                5.2,
+                0.39,
+                0.28
+              ],
+              "color": "#6A3C3A"
+            }
+          ]
+        },
+        {
+          "key": "sideboard",
+          "label": "West sideboard",
+          "blocks": [
+            {
+              "shape": "box",
+              "position": [
+                -3.38,
+                0.48,
+                -0.6
+              ],
+              "size": [
+                0.72,
+                0.96,
+                2.4
+              ],
+              "color": "#594032"
+            }
+          ]
+        },
+        {
+          "key": "worktable",
+          "label": "Long worktable",
+          "blocks": [
+            {
+              "shape": "box",
+              "position": [
+                0,
+                0.94,
+                0
+              ],
+              "size": [
+                1.65,
+                0.14,
+                3.75
+              ],
+              "color": "#594032"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -0.66,
+                0.45,
+                -1.65
+              ],
+              "size": [
+                0.16,
+                0.9,
+                0.17
+              ],
+              "color": "#352B28"
+            },
+            {
+              "shape": "box",
+              "position": [
+                -0.66,
+                0.45,
+                1.65
+              ],
+              "size": [
+                0.16,
+                0.9,
+                0.17
+              ],
+              "color": "#352B28"
+            },
+            {
+              "shape": "box",
+              "position": [
+                0.66,
+                0.45,
+                -1.65
+              ],
+              "size": [
+                0.16,
+                0.9,
+                0.17
+              ],
+              "color": "#352B28"
+            },
+            {
+              "shape": "box",
+              "position": [
+                0.66,
+                0.45,
+                1.65
+              ],
+              "size": [
+                0.16,
+                0.9,
+                0.17
+              ],
+              "color": "#352B28"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "castStandIns": [
+    {
+      "castMemberId": "cast_cwdyy6ec",
+      "name": "Mehmed II",
+      "version": 1,
+      "standIn": {
+        "height": 1.77,
+        "color": "#8E4C60",
+        "details": [
+          "hat",
+          "beard"
+        ]
+      }
+    },
+    {
+      "castMemberId": "cast_sb5y4gjk",
+      "name": "Urban",
+      "version": 5,
+      "standIn": {
+        "height": 1.81,
+        "color": "#DCA637",
+        "details": [
+          "beard",
+          "apron"
+        ]
+      }
+    },
+    {
+      "castMemberId": "cast_e786pp6u",
+      "name": "Mara",
+      "version": 1,
+      "standIn": {
+        "height": 1.72,
+        "color": "#E86F62",
+        "details": [
+          "longHair"
+        ]
+      }
+    }
+  ],
+  "propStandIns": [],
+  "assetFiles": []
+}
